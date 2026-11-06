@@ -62,7 +62,7 @@ def materials():
                          fallback=(0.86, 0.84, 0.80), fallback_rough=0.2)
     M["deck"] = pbr("terrasse", "terrace_deck", tile=(2.0, 2.0), normal=0.8,
                     fallback=(0.55, 0.50, 0.45), fallback_rough=0.7)
-    M["grass"] = pbr("pelouse", "grass", tile=(2.5, 2.5), normal=1.0, sat=0.9,
+    M["grass"] = pbr("pelouse", "grass", tile=(2.5, 2.5), normal=1.0, sat=1.05, val=0.78,
                      fallback=(0.20, 0.33, 0.12), fallback_rough=0.9)
     M["roof"] = pbr("tuiles", "roof_tiles", tile=(2.0, 2.0), normal=1.0,
                     fallback=(0.35, 0.33, 0.32), fallback_rough=0.7)

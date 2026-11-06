@@ -94,7 +94,9 @@ OPENINGS = [
     ("ext_terrasse", "x", 9.99, 12.99, 0.0, LINTEL, "baie", "Sejour 3.00/2.15"),
     # portes interieures (positions relevees au plan, largeur standard 83)
     ("c_gauche_sejour", "y", 4.17, 5.00, 0.0, DOOR_H, "porte", "Chambre 14.82"),
-    ("c_ch1_pieces", "x", 1.17, 1.98, 0.0, DOOR_H, "coulissante", "Chambre -> Piece 3"),
+    ("c_ch1_pieces", "x", 1.17, 1.98, 0.0, DOOR_H, "coulissante", "Chambre -> SDE parentale"),
+    # PROPRIETAIRE: porte a galandage entre salle d'eau parentale (piece 3) et dressing (piece 2), cote chambre
+    ("c_p3_p2", "y", 3.12, 3.95, 0.0, DOOR_H, "coulissante_ouverte", "SDE parentale -> Dressing"),
     ("c_cuisine_cellier", "y", 1.01, 1.84, 0.0, DOOR_H, "porte", "Cellier"),
     ("c_wc_entree", "y", 2.11, 2.94, 0.0, DOOR_H, "porte", "WC"),
     ("c_nord_cellier_wc", "x", 12.24, 13.27, 0.0, PASSAGE_H, "passage", "Entree -> sejour"),
@@ -108,8 +110,8 @@ OPENINGS = [
 # ---------------------------------------------------------------- pieces (controle des surfaces)
 ROOMS = {
     "Chambre 14.82":  [(0.34, 4.21, 4.09, 7.92)],
-    "Piece 3 (6.97)": [(0.34, 2.24, 0.34, 4.02)],
-    "Piece 2 (6.95)": [(2.31, 4.21, 0.34, 4.02)],
+    "SDE parentale (piece 3, 6.97)": [(0.34, 2.24, 0.34, 4.02)],
+    "Dressing (piece 2, 6.95)": [(2.31, 4.21, 0.34, 4.02)],
     "Cellier 5.11":   [(8.90, 10.65, 0.34, 3.27)],
     "WC 1.98":        [(10.72, 11.72, 1.29, 3.27)],
     "Chambre 11.69":  [(14.05, 17.87, 0.34, 3.40)],
@@ -120,7 +122,7 @@ ROOMS = {
 }
 
 PLAN_AREAS = {
-    "Chambre 14.82": 14.82, "Piece 3 (6.97)": 6.97, "Piece 2 (6.95)": 6.95,
+    "Chambre 14.82": 14.82, "SDE parentale (piece 3, 6.97)": 6.97, "Dressing (piece 2, 6.95)": 6.95,
     "Cellier 5.11": 5.11, "WC 1.98": 1.98, "Chambre 11.69": 11.69, "SDE 5.36": 5.36,
     "Chambre 10.62": 10.62, "Chambre 11.51": 11.51, "Piece 1 (5.07)": 5.07,
 }
@@ -160,6 +162,6 @@ if __name__ == "__main__":
     # controle rapide des surfaces
     for name, rects in ROOMS.items():
         a = sum((x1 - x0) * (y1 - y0) for x0, x1, y0, y1 in rects)
-        print(f"{name:18s} modele {a:6.2f} m2   plan {PLAN_AREAS[name]:6.2f} m2   ecart {a - PLAN_AREAS[name]:+.2f}")
+        print(f"{name:30s} modele {a:6.2f} m2   plan {PLAN_AREAS[name]:6.2f} m2   ecart {a - PLAN_AREAS[name]:+.2f}")
     a = poly_area(LIVING_POLY) - 0.07 * (12.24 - 11.79) - 0.07 * (13.98 - 13.27)
-    print(f"{'Piece de vie':18s} modele {a:6.2f} m2   plan  62.51 m2   ecart {a - 62.51:+.2f}")
+    print(f"{'Piece de vie':30s} modele {a:6.2f} m2   plan  62.51 m2   ecart {a - 62.51:+.2f}")

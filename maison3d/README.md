@@ -18,6 +18,8 @@ Toutes les dimensions viennent des cotes écrites sur le plan : `spec.py` cite l
 | Pièce | Maquette | Plan |
 |---|---|---|
 | Pièce de vie | 62,48 | 62,51 |
+| Salle d'eau parentale (pièce 3) | 6,99 | 6,97 |
+| Dressing (pièce 2) | 6,99 | 6,95 |
 | Chambre | 14,82 | 14,82 |
 | Chambre | 11,69 | 11,69 |
 | Chambre | 11,51 | 11,51 |
@@ -47,7 +49,9 @@ Une relecture indépendante a comparé la maquette au plan et corrigé trois poi
   - Sur le plan, une colonne de cuisine est dessinée **devant la porte du cellier**. Elle a été retirée
     pour garder l'accès ; il reste seulement une colonne four à l'angle.
   - Le lit de la chambre 14,82 est posé contre le mur. Sur le plan il en est décollé d'environ 50 cm.
-- La **pièce 2** n'a ni porte ni fenêtre sur le plan. Rien n'a été inventé, et elle n'est pas rendue.
+- **Suite parentale (précisé par le propriétaire)** : la pièce 3 est la salle d'eau parentale, la pièce 2 le dressing.
+  On entre dans la salle d'eau depuis la chambre par une porte coulissante, dessinée sur le plan.
+  On passe de la salle d'eau au dressing par une porte à galandage, placée côté chambre.
 
 ## Utilisation
 

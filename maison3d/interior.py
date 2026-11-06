@@ -103,7 +103,7 @@ def pillow(name, x, y, z, w=0.48, h=0.48, t=0.16, rot=0.0, mat=None, tilt=15):
     ob = box(name, -w / 2, w / 2, -t / 2, t / 2, -h / 2, h / 2, mat)
     add_subsurf(ob, 3)
     cs = ob.modifiers.new("gonfle", "CAST")
-    cs.factor = 0.35
+    cs.factor = 0.12
     cs.cast_type = "SPHERE"
     ob.location = (x, y, z)
     ob.rotation_euler = (math.radians(tilt), 0, rot)
@@ -446,7 +446,7 @@ def living(M, m, art):
     place("potted_plant_01", 4.62, 7.55, 140, name="plante_repas")
     place("potted_plant_02", 9.50, 4.70, 0, name="plante_canape")
     # ---- lampadaire pres du fauteuil (simple, metal noir + abat-jour lin)
-    lx, ly = 13.72, 5.42
+    lx, ly = 9.72, 7.62
     cylinder("lampadaire_pied", lx, ly, 0, 0.02, 0.15, m["black"])
     cylinder("lampadaire_tige", lx, ly, 0.02, 1.45, 0.009, m["black"])
     lathe("lampadaire_abat", [(0.20, 0.0), (0.16, 0.30)], lx, ly, 1.35, m["shade"])
@@ -463,7 +463,7 @@ def living(M, m, art):
 
 def spot(name, x, y, m, on=False):
     cylinder(name, x, y, H - 0.004, H, 0.045, m["white_matt"], seg=24)
-    mat = emission("spot_allume", (1.0, 0.86, 0.68), 40.0) if on else principled("spot_reflecteur", (0.7, 0.7, 0.7), 0.2, 1.0)
+    mat = emission("spot_allume", (1.0, 0.86, 0.68), 260.0) if on else principled("spot_reflecteur", (0.7, 0.7, 0.7), 0.2, 1.0)
     cylinder(name + "_in", x, y, H - 0.005, H - 0.004, 0.03, mat, seg=24)
 
 
@@ -598,6 +598,75 @@ def bedrooms(M, m, art):
 
 
 # ------------------------------------------------------------------ SALLE D'EAU
+def suite(M, m):
+    """Suite parentale : salle d'eau (piece 3) et dressing (piece 2), d'apres le plan et le proprietaire."""
+    set_coll("suite_parentale")
+    tw = M["tile_wall"]
+    t = 0.012
+    # ---- salle d'eau parentale : x 0.34-2.24, y 0.34-4.02 ; douche dessinee cote facade
+    X0, X1, Y0, Y1 = 0.34, 2.24, 0.34, 4.02
+    sx0, sx1, sy0, sy1 = 1.34, X1, Y0, 1.25
+    box("sdep_faience_e", X1 - t, X1, Y0, sy1 + 0.02, 0.004, 2.20, tw)
+    box("sdep_faience_s", sx0 - 0.02, X1, Y0, Y0 + t, 0.004, 1.08, tw)
+    box("sdep_receveur", sx0, X1 - t, Y0 + t, sy1, 0.004, 0.03, principled("receveur_resine", (0.82, 0.81, 0.78), 0.55), bevel=0.003)
+    box("sdep_caniveau", sx0 + 0.10, X1 - 0.10, Y0 + 0.08, Y0 + 0.12, 0.03, 0.032, m["black"])
+    gl = bpy.data.materials.get("verre")
+    box("sdep_paroi", sx0, X1 - t, sy1, sy1 + 0.008, 0.03, 2.00, gl)
+    box("sdep_paroi_profil", sx0, X1 - t, sy1 - 0.002, sy1 + 0.01, 1.98, 2.00, m["black"])
+    box("sdep_paroi_barre", sx0, sx0 + 0.02, sy1, sy1 + 0.008, 0.03, 2.00, m["black"])
+    cylinder("sdep_colonne", X1 - 0.04, 0.80, 0.90, 2.15, 0.012, m["black"])
+    box("sdep_bras", X1 - 0.30, X1 - 0.03, 0.79, 0.81, 2.14, 2.16, m["black"])
+    cylinder("sdep_tete", X1 - 0.30, 0.80, 2.13, 2.15, 0.15, m["black"])
+    box("sdep_mitigeur", X1 - 0.05, X1 - t, 0.74, 0.86, 1.05, 1.11, m["black"], bevel=0.008)
+    # meuble double vasque contre le mur gauche (x = 0.34)
+    vy0, vy1 = 1.75, 3.15
+    box("sdep_faience_vasque", X0, X0 + t, vy0 - 0.05, vy1 + 0.05, 0.004, 1.20, tw)
+    box("sdep_meuble", X0 + t, X0 + 0.50, vy0, vy1, 0.42, 0.82, m["oak"], bevel=0.003)
+    box("sdep_plan", X0 + t, X0 + 0.52, vy0, vy1, 0.82, 0.85, m["quartz"], bevel=0.002)
+    for k, vy in enumerate((vy0 + 0.35, vy1 - 0.35)):
+        lathe(f"sdep_vasque{k}", [(0.0, 0.0), (0.16, 0.0), (0.20, 0.03), (0.21, 0.13), (0.195, 0.13), (0.185, 0.04), (0.0, 0.02)],
+              X0 + 0.29, vy, 0.85, m["ceramic"])
+        tap(f"sdep_robinet{k}", X0 + 0.06, vy, 0.85, 0, m["black"], reach=0.13, height=0.26)
+    box("sdep_miroir", X0 + t, X0 + t + 0.02, vy0 + 0.05, vy1 - 0.05, 1.05, 1.85, m["mirror"], bevel=0.004)
+    box("sdep_miroir_led", X0 + t, X0 + t + 0.01, vy0 + 0.07, vy1 - 0.07, 1.07, 1.83, m["led"])
+    for k in range(8):
+        box(f"sdep_radiateur{k}", X0 + t, X0 + 0.05, 3.40, 3.90, 0.40 + k * 0.14, 0.42 + k * 0.14, m["black"], bevel=0.008)
+    cushion("sdep_serviette", X0 + 0.05, X0 + 0.11, 3.45, 3.85, 1.0, 1.42, m["linen_sand"], r=0.015)
+    for (sx, sy) in [(1.30, 2.40), (1.30, 3.50), (1.79, 0.80)]:
+        spot(f"spot_sdep_{sx}_{sy}", sx, sy, m, on=True)
+    # ---- dressing : x 2.31-4.21, y 0.34-4.02 (sans fenetre)
+    D0, D1, E0, E1 = 2.31, 4.21, 0.34, 4.02
+    oak = m["oak"]
+    # rangements ouverts le long du mur est (cuisine) et du mur sud (facade)
+    box("dress_fond_e", D1 - 0.02, D1, E0 + 0.60, E1 - 0.05, 0.0, 2.30, m["white_matt"])
+    for k in range(6):
+        y = E0 + 0.60 + k * ((E1 - 0.05) - (E0 + 0.60)) / 5
+        box(f"dress_montant{k}", D1 - 0.60, D1, y - 0.01, y + 0.01, 0.0, 2.30, oak, bevel=0.002)
+    box("dress_dessus_e", D1 - 0.60, D1, E0 + 0.60, E1 - 0.05, 2.28, 2.30, oak)
+    cylinder_rail = principled("tringle", (0.05, 0.05, 0.05), 0.35, 0.9)
+    box("dress_tringle_e", D1 - 0.32, D1 - 0.30, E0 + 0.62, E1 - 0.07, 1.86, 1.88, cylinder_rail)
+    box("dress_tringle_e2", D1 - 0.32, D1 - 0.30, E0 + 0.62, E1 - 0.07, 0.98, 1.00, cylinder_rail)
+    colors = [m["linen"], m["linen_sand"], m["linen_terra"], m["linen_sage"], m["sofa"]]
+    y = E0 + 0.70
+    k = 0
+    while y < E1 - 0.12:
+        mat = colors[R.randrange(len(colors))]
+        h = R.choice([0.95, 0.85, 0.80, 1.05])
+        box(f"dress_vetement{k}", D1 - 0.52, D1 - 0.10, y, y + 0.025, 1.87 - h, 1.86, mat, bevel=0.006)
+        y += R.uniform(0.045, 0.07)
+        k += 1
+    box("dress_commode_s", D0 + 0.05, D1 - 0.62, E0, E0 + 0.50, 0.0, 0.85, oak, bevel=0.003)
+    for k in range(3):
+        box(f"dress_tiroir{k}", D0 + 0.07, D1 - 0.64, E0 + 0.50, E0 + 0.515, 0.08 + k * 0.255, 0.31 + k * 0.255, oak, bevel=0.002)
+    for k, zz in enumerate((1.25, 1.65, 2.05)):
+        box(f"dress_etagere_s{k}", D0 + 0.05, D1 - 0.62, E0, E0 + 0.40, zz, zz + 0.025, oak, bevel=0.002)
+    box("dress_pouf", 2.95, 3.40, 2.20, 2.65, 0.0, 0.42, m["sofa"], bevel=0.05, seg=4)
+    box("dress_tapis", 2.55, 3.55, 1.30, 3.60, 0.0, 0.012, m["rug"], bevel=0.003, seg=1)
+    box("dress_miroir", D0, D0 + 0.02, 1.20, 1.80, 0.25, 2.05, m["mirror"], bevel=0.004)
+    for (sx, sy) in [(3.25, 1.30), (3.25, 3.00)]:
+        spot(f"spot_dress_{sx}_{sy}", sx, sy, m, on=True)
+
+
 def bathroom(M, m):
     set_coll("salle_d_eau")
     X0, X1, Y0, Y1 = 15.12, 17.87, 3.47, 5.42
@@ -704,6 +773,7 @@ def build(M):
     living(M, m, art)
     bedrooms(M, m, art)
     bathroom(M, m)
+    suite(M, m)
     entry(M, m, art)
     terrace(M, m)
     print(f"[interior] modeles disponibles : {len(MODELS)}")

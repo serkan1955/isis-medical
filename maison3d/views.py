@@ -30,6 +30,10 @@ VIEWS.update({
     "07_salle_d_eau":          dict(cam=(17.05, 5.28, EYE, 243, 14, -0.04), exposure=2.0),
     # Entree
     "08_entree":               dict(cam=(12.95, 1.45, EYE, 95, 16, -0.05), exposure=1.8),
+    # Suite parentale : salle d'eau (piece 3) vers la douche, dressing a gauche par la porte a galandage
+    "09_salle_d_eau_parentale": dict(cam=(1.95, 3.85, EYE, 250, 14, -0.04), exposure=2.1),
+    # Suite parentale : dressing (piece 2) vu depuis la salle d'eau
+    "10_dressing":             dict(cam=(2.50, 3.82, EYE, -48, 14, -0.04), exposure=2.0),
 })
 
 HIDE_FOR_TOP = ["toiture", "plafond"]
