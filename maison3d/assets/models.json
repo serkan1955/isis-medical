@@ -1,0 +1,5525 @@
+[
+ {
+  "id": "dining_chair_02",
+  "category": "dining_chair",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/dining_chair_02/dining_chair_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "dining_chair_02"
+   ]
+  },
+  "dims_m": [
+   0.4336,
+   0.5764,
+   0.9734
+  ],
+  "bbox_min": [
+   -0.2168,
+   -0.2454,
+   0.0013
+  ],
+  "bbox_max": [
+   0.2168,
+   0.331,
+   0.9747
+  ],
+  "center_xy": [
+   0.0,
+   0.0428
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/dining_chair_02.png",
+  "notes": "Modern dining chair, tufted dark-brown leather, high back, dark wood legs. Seat surface z~0.45 m, backrest top 0.97 m. Seat faces -Y (backrest at +Y). Origin at seat centre-ish on floor (bbox centre y=+0.043). Instance 6x via collection instance (empty.instance_collection).",
+  "objects": [
+   "dining_chair_02"
+  ],
+  "resolution": "2k",
+  "polycount_source": 22013,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "seat_z": 0.45
+  }
+ },
+ {
+  "id": "mid_century_lounge_chair",
+  "category": "armchair",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/mid_century_lounge_chair/mid_century_lounge_chair_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "mid_century_lounge_chair"
+   ]
+  },
+  "dims_m": [
+   1.0086,
+   1.1903,
+   1.1691
+  ],
+  "bbox_min": [
+   -0.5043,
+   -0.5289,
+   -0.0
+  ],
+  "bbox_max": [
+   0.5043,
+   0.6614,
+   1.1691
+  ],
+  "center_xy": [
+   0.0,
+   0.0662
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/mid_century_lounge_chair.png",
+  "notes": "Mid-century swivel lounge chair (moulded wood shell, brown leather cushions, 4-star aluminium base). Seat z~0.45-0.50 m. Faces -Y.",
+  "objects": [
+   "mid_century_lounge_chair"
+  ],
+  "resolution": "2k",
+  "polycount_source": 6148,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "seat_z": 0.46
+  }
+ },
+ {
+  "id": "modern_arm_chair_01",
+  "category": "armchair",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/modern_arm_chair_01/modern_arm_chair_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "modern_arm_chair_01"
+   ]
+  },
+  "dims_m": [
+   0.8203,
+   0.9866,
+   1.0229
+  ],
+  "bbox_min": [
+   -0.4068,
+   -0.4111,
+   0.0004
+  ],
+  "bbox_max": [
+   0.4135,
+   0.5755,
+   1.0232
+  ],
+  "center_xy": [
+   0.0034,
+   0.0822
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/modern_arm_chair_01.png",
+  "notes": "Contemporary armchair: oak frame + black leather cushions. Seat z~0.54 m, back top 1.02 m. Faces -Y.",
+  "objects": [
+   "modern_arm_chair_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 8916,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "seat_z": 0.54
+  }
+ },
+ {
+  "id": "coffee_table_round_01",
+  "category": "coffee_table",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/coffee_table_round_01/coffee_table_round_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "coffee_table_round_01"
+   ]
+  },
+  "dims_m": [
+   1.3013,
+   1.3013,
+   0.491
+  ],
+  "bbox_min": [
+   -0.6507,
+   -0.6507,
+   -0.0014
+  ],
+  "bbox_max": [
+   0.6507,
+   0.6507,
+   0.4896
+  ],
+  "center_xy": [
+   -0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/coffee_table_round_01.png",
+  "notes": "Round white-marble top, looping black metal legs. Diameter 1.30 m, top at z=0.49 m (large: for a ~0.9 m table scale (0.7,0.7,1.0) or (0.8,0.8,0.9)). Rotationally symmetric.",
+  "objects": [
+   "coffee_table_round_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 4044,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "top_z": 0.49
+  }
+ },
+ {
+  "id": "modern_coffee_table_01",
+  "category": "coffee_table",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/modern_coffee_table_01/modern_coffee_table_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "modern_coffee_table_01"
+   ]
+  },
+  "dims_m": [
+   1.2018,
+   0.6,
+   0.39
+  ],
+  "bbox_min": [
+   -0.6007,
+   -0.3,
+   -0.0001
+  ],
+  "bbox_max": [
+   0.6012,
+   0.3,
+   0.3899
+  ],
+  "center_xy": [
+   0.0002,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/modern_coffee_table_01.png",
+  "notes": "Rectangular coffee table, grey stone top with oak inlay chevrons, oak frame. 1.20 x 0.60, top z=0.39 m. Long axis X; front/back symmetric.",
+  "objects": [
+   "modern_coffee_table_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 4504,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "top_z": 0.39
+  }
+ },
+ {
+  "id": "bar_chair_round_01",
+  "category": "bar_stool",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/bar_chair_round_01/bar_chair_round_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "bar_chair_round_01"
+   ]
+  },
+  "dims_m": [
+   0.4832,
+   0.486,
+   0.7505
+  ],
+  "bbox_min": [
+   -0.2287,
+   -0.2416,
+   0.0
+  ],
+  "bbox_max": [
+   0.2544,
+   0.2444,
+   0.7506
+  ],
+  "center_xy": [
+   0.0128,
+   0.0014
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/bar_chair_round_01.png",
+  "notes": "Round dark-wood bar/counter stool with low backrest at +Y and metal footring. Seat surface z=0.689 m (backrest to 0.75 m): uniform scale 0.943 gives 0.65 m seat. Vintage-ish carved trim (no modern stool on Poly Haven).",
+  "objects": [
+   "bar_chair_round_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 14373,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "seat_z": 0.689
+  }
+ },
+ {
+  "id": "metal_stool_01",
+  "category": "bar_stool",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/metal_stool_01/metal_stool_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "metal_stool_01"
+   ]
+  },
+  "dims_m": [
+   0.352,
+   0.3546,
+   0.8828
+  ],
+  "bbox_min": [
+   -0.176,
+   -0.1772,
+   0.0
+  ],
+  "bbox_max": [
+   0.176,
+   0.1773,
+   0.8828
+  ],
+  "center_xy": [
+   -0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/metal_stool_01.png",
+  "notes": "Industrial bar stool: leather round seat on aged-metal ring frame. Seat z=0.88 m (bar height) - too tall for a 65 cm counter seat; uniform scale 0.74 would shrink seat to 26 cm dia. Prefer bar_chair_round_01. Rotationally symmetric.",
+  "objects": [
+   "metal_stool_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 8334,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "seat_z": 0.88
+  }
+ },
+ {
+  "id": "potted_plant_01",
+  "category": "plant_floor",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/potted_plant_01/potted_plant_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "potted_plant_01"
+   ]
+  },
+  "dims_m": [
+   0.5874,
+   0.6336,
+   1.3502
+  ],
+  "bbox_min": [
+   -0.3384,
+   -0.2699,
+   -0.0137
+  ],
+  "bbox_max": [
+   0.249,
+   0.3637,
+   1.3365
+  ],
+  "center_xy": [
+   -0.0447,
+   0.0469
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/potted_plant_01.png",
+  "notes": "Leafy plant in tall terracotta pedestal pot, 1.35 m tall, pot ~0.35 m dia. Floor plant. Objects: pot, pebbles, stem, leaves.",
+  "objects": [
+   "potted_plant_01_stem",
+   "potted_plant_01_pebbles",
+   "potted_plant_01_pot",
+   "potted_plant_01_leaves"
+  ],
+  "resolution": "2k",
+  "polycount_source": 96030,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "potted_plant_01_stem": {
+    "bbox_min": [
+     -0.2346,
+     -0.1761,
+     0.411
+    ],
+    "bbox_max": [
+     0.1367,
+     0.2171,
+     1.267
+    ],
+    "dims_m": [
+     0.3713,
+     0.3932,
+     0.856
+    ]
+   },
+   "potted_plant_01_pebbles": {
+    "bbox_min": [
+     -0.2186,
+     -0.2131,
+     -0.0137
+    ],
+    "bbox_max": [
+     0.2117,
+     0.2179,
+     0.5303
+    ],
+    "dims_m": [
+     0.4303,
+     0.431,
+     0.544
+    ]
+   },
+   "potted_plant_01_pot": {
+    "bbox_min": [
+     -0.2331,
+     -0.2331,
+     0.0
+    ],
+    "bbox_max": [
+     0.2331,
+     0.2331,
+     0.5314
+    ],
+    "dims_m": [
+     0.4662,
+     0.4662,
+     0.5314
+    ]
+   },
+   "potted_plant_01_leaves": {
+    "bbox_min": [
+     -0.3384,
+     -0.2699,
+     0.5833
+    ],
+    "bbox_max": [
+     0.249,
+     0.3637,
+     1.3365
+    ],
+    "dims_m": [
+     0.5874,
+     0.6336,
+     0.7532
+    ]
+   }
+  }
+ },
+ {
+  "id": "potted_plant_02",
+  "category": "plant_floor",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/potted_plant_02/potted_plant_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "potted_plant_02"
+   ]
+  },
+  "dims_m": [
+   0.7012,
+   0.6574,
+   0.8412
+  ],
+  "bbox_min": [
+   -0.3967,
+   -0.2371,
+   0.0001
+  ],
+  "bbox_max": [
+   0.3045,
+   0.4203,
+   0.8412
+  ],
+  "center_xy": [
+   -0.0461,
+   0.0916
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/potted_plant_02.png",
+  "notes": "Syngonium-like plant (arrow-shaped variegated leaves) in round terracotta pot, 0.84 m tall. Medium floor plant.",
+  "objects": [
+   "potted_plant_02_pot",
+   "potted_plant_02_leaves",
+   "potted_plant_02_dirt"
+  ],
+  "resolution": "2k",
+  "polycount_source": 69806,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "potted_plant_02_pot": {
+    "bbox_min": [
+     -0.2371,
+     -0.2371,
+     0.0001
+    ],
+    "bbox_max": [
+     0.2371,
+     0.2371,
+     0.3362
+    ],
+    "dims_m": [
+     0.4741,
+     0.4741,
+     0.3361
+    ]
+   },
+   "potted_plant_02_leaves": {
+    "bbox_min": [
+     -0.3967,
+     -0.2229,
+     0.2087
+    ],
+    "bbox_max": [
+     0.3045,
+     0.4203,
+     0.8412
+    ],
+    "dims_m": [
+     0.7012,
+     0.6432,
+     0.6326
+    ]
+   },
+   "potted_plant_02_dirt": {
+    "bbox_min": [
+     -0.2076,
+     -0.2029,
+     0.2969
+    ],
+    "bbox_max": [
+     0.2066,
+     0.2079,
+     0.3408
+    ],
+    "dims_m": [
+     0.4142,
+     0.4109,
+     0.0439
+    ]
+   }
+  }
+ },
+ {
+  "id": "pachira_aquatica_01",
+  "category": "plant_floor",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/pachira_aquatica_01/pachira_aquatica_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "pachira_aquatica_01"
+   ]
+  },
+  "dims_m": [
+   6.869,
+   0.997,
+   1.9041
+  ],
+  "bbox_min": [
+   -2.3091,
+   -0.4061,
+   -0.0177
+  ],
+  "bbox_max": [
+   4.5599,
+   0.5909,
+   1.8864
+  ],
+  "center_xy": [
+   1.1254,
+   0.0924
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/pachira_aquatica_01.png",
+  "notes": "Money tree (Pachira) WITHOUT pot: 4 variants laid out along X (a at x=-2, b at 0, c at ~2, d at 4); each variant = <id>_bark_X + <id>_leaves_X objects (see variants). Heights 0.9-1.9 m. Needs a pot (model a cylinder or reuse a pot). Origins at each variant base.",
+  "objects": [
+   "pachira_aquatica_01_bark_a",
+   "pachira_aquatica_01_bark_b",
+   "pachira_aquatica_01_bark_c",
+   "pachira_aquatica_01_bark_d",
+   "pachira_aquatica_01_leaves_a",
+   "pachira_aquatica_01_leaves_b",
+   "pachira_aquatica_01_leaves_c",
+   "pachira_aquatica_01_leaves_d"
+  ],
+  "resolution": "2k",
+  "polycount_source": 76914,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "pachira_aquatica_01_bark_a": {
+    "bbox_min": [
+     -2.0918,
+     -0.1101,
+     -0.0177
+    ],
+    "bbox_max": [
+     -1.8593,
+     0.1309,
+     0.8333
+    ],
+    "dims_m": [
+     0.2325,
+     0.241,
+     0.8509
+    ]
+   },
+   "pachira_aquatica_01_bark_b": {
+    "bbox_min": [
+     -0.0227,
+     -0.2022,
+     -0.0076
+    ],
+    "bbox_max": [
+     0.1324,
+     0.0279,
+     0.576
+    ],
+    "dims_m": [
+     0.1551,
+     0.2301,
+     0.5837
+    ]
+   },
+   "pachira_aquatica_01_bark_c": {
+    "bbox_min": [
+     1.7555,
+     -0.1278,
+     -0.0061
+    ],
+    "bbox_max": [
+     2.3488,
+     0.367,
+     0.9956
+    ],
+    "dims_m": [
+     0.5933,
+     0.4948,
+     1.0016
+    ]
+   },
+   "pachira_aquatica_01_bark_d": {
+    "bbox_min": [
+     3.7623,
+     -0.1228,
+     -0.0156
+    ],
+    "bbox_max": [
+     4.3631,
+     0.3088,
+     1.6117
+    ],
+    "dims_m": [
+     0.6008,
+     0.4315,
+     1.6272
+    ]
+   },
+   "pachira_aquatica_01_leaves_a": {
+    "bbox_min": [
+     -2.3091,
+     -0.3703,
+     0.5436
+    ],
+    "bbox_max": [
+     -1.5652,
+     0.2762,
+     1.2838
+    ],
+    "dims_m": [
+     0.7439,
+     0.6465,
+     0.7402
+    ]
+   },
+   "pachira_aquatica_01_leaves_b": {
+    "bbox_min": [
+     -0.2375,
+     -0.3916,
+     0.2095
+    ],
+    "bbox_max": [
+     0.2657,
+     0.2158,
+     0.7274
+    ],
+    "dims_m": [
+     0.5031,
+     0.6074,
+     0.5179
+    ]
+   },
+   "pachira_aquatica_01_leaves_c": {
+    "bbox_min": [
+     1.6209,
+     -0.3681,
+     0.2489
+    ],
+    "bbox_max": [
+     2.5962,
+     0.5556,
+     1.143
+    ],
+    "dims_m": [
+     0.9753,
+     0.9237,
+     0.894
+    ]
+   },
+   "pachira_aquatica_01_leaves_d": {
+    "bbox_min": [
+     3.5054,
+     -0.4061,
+     0.2377
+    ],
+    "bbox_max": [
+     4.5599,
+     0.5909,
+     1.8864
+    ],
+    "dims_m": [
+     1.0545,
+     0.997,
+     1.6487
+    ]
+   }
+  },
+  "variants": {
+   "a": {
+    "objects": [
+     "pachira_aquatica_01_bark_a",
+     "pachira_aquatica_01_leaves_a"
+    ],
+    "bbox_min": [
+     -2.3091,
+     -0.3703,
+     -0.0177
+    ],
+    "bbox_max": [
+     -1.5652,
+     0.2762,
+     1.2838
+    ],
+    "dims_m": [
+     0.7439,
+     0.6465,
+     1.3015
+    ]
+   },
+   "b": {
+    "objects": [
+     "pachira_aquatica_01_bark_b",
+     "pachira_aquatica_01_leaves_b"
+    ],
+    "bbox_min": [
+     -0.2375,
+     -0.3916,
+     -0.0076
+    ],
+    "bbox_max": [
+     0.2657,
+     0.2158,
+     0.7274
+    ],
+    "dims_m": [
+     0.5032,
+     0.6074,
+     0.735
+    ]
+   },
+   "c": {
+    "objects": [
+     "pachira_aquatica_01_bark_c",
+     "pachira_aquatica_01_leaves_c"
+    ],
+    "bbox_min": [
+     1.6209,
+     -0.3681,
+     -0.0061
+    ],
+    "bbox_max": [
+     2.5962,
+     0.5556,
+     1.143
+    ],
+    "dims_m": [
+     0.9753,
+     0.9237,
+     1.1491
+    ]
+   },
+   "d": {
+    "objects": [
+     "pachira_aquatica_01_bark_d",
+     "pachira_aquatica_01_leaves_d"
+    ],
+    "bbox_min": [
+     3.5054,
+     -0.4061,
+     -0.0156
+    ],
+    "bbox_max": [
+     4.5599,
+     0.5909,
+     1.8864
+    ],
+    "dims_m": [
+     1.0545,
+     0.997,
+     1.902
+    ]
+   }
+  }
+ },
+ {
+  "id": "potted_plant_04",
+  "category": "plant_small",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/potted_plant_04/potted_plant_04_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "potted_plant_04"
+   ]
+  },
+  "dims_m": [
+   0.1679,
+   0.1848,
+   0.2675
+  ],
+  "bbox_min": [
+   -0.0839,
+   -0.1008,
+   0.0004
+  ],
+  "bbox_max": [
+   0.0839,
+   0.0839,
+   0.2678
+  ],
+  "center_xy": [
+   0.0,
+   -0.0084
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/potted_plant_04.png",
+  "notes": "Small zebra haworthia succulent in white ceramic pot, 0.27 m tall - shelf/table plant. Includes a small \"ground\" object under pot (potted_plant_04_ground) you may want to drop.",
+  "objects": [
+   "potted_plant_04_ground",
+   "potted_plant_04_dirt",
+   "potted_plant_04_plant",
+   "potted_plant_04_pot"
+  ],
+  "resolution": "2k",
+  "polycount_source": 6097,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "potted_plant_04_ground": {
+    "bbox_min": [
+     -0.0743,
+     -0.0734,
+     0.1327
+    ],
+    "bbox_max": [
+     0.073,
+     0.0755,
+     0.1545
+    ],
+    "dims_m": [
+     0.1473,
+     0.1489,
+     0.0217
+    ]
+   },
+   "potted_plant_04_dirt": {
+    "bbox_min": [
+     -0.0789,
+     -0.0776,
+     0.1342
+    ],
+    "bbox_max": [
+     0.0775,
+     0.0786,
+     0.1534
+    ],
+    "dims_m": [
+     0.1564,
+     0.1562,
+     0.0192
+    ]
+   },
+   "potted_plant_04_plant": {
+    "bbox_min": [
+     -0.0624,
+     -0.1008,
+     0.1355
+    ],
+    "bbox_max": [
+     0.0837,
+     0.0723,
+     0.2678
+    ],
+    "dims_m": [
+     0.1461,
+     0.1731,
+     0.1323
+    ]
+   },
+   "potted_plant_04_pot": {
+    "bbox_min": [
+     -0.0839,
+     -0.0839,
+     0.0004
+    ],
+    "bbox_max": [
+     0.0839,
+     0.0839,
+     0.1554
+    ],
+    "dims_m": [
+     0.1679,
+     0.1679,
+     0.1551
+    ]
+   }
+  }
+ },
+ {
+  "id": "modern_ceiling_lamp_01",
+  "category": "lamp_pendant",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/modern_ceiling_lamp_01/modern_ceiling_lamp_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "modern_ceiling_lamp_01"
+   ]
+  },
+  "dims_m": [
+   0.4316,
+   0.4317,
+   0.9516
+  ],
+  "bbox_min": [
+   -0.2158,
+   -0.2173,
+   0.2211
+  ],
+  "bbox_max": [
+   0.2159,
+   0.2143,
+   1.1726
+  ],
+  "center_xy": [
+   0.0,
+   -0.0015
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/modern_ceiling_lamp_01.png",
+  "notes": "Pendant: frosted/opal glass globe (~0.43 m dia) with brushed metal fittings on cord. Geometry spans z=0.221 (globe bottom) to z=1.173 (ceiling canopy) relative to origin: to hang from a ceiling at height H set object z = H - 1.173 (globe bottom then 0.95 m below ceiling; shorten cord by moving the upper vertices if needed). Globe material has weak warm emission (strength 1) - add a point/sphere light inside for real illumination. Symmetric.",
+  "objects": [
+   "modern_ceiling_lamp_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 5602,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "side_table_01",
+  "category": "nightstand_side_table",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/side_table_01/side_table_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "side_table_01"
+   ]
+  },
+  "dims_m": [
+   0.55,
+   0.45,
+   0.5507
+  ],
+  "bbox_min": [
+   -0.275,
+   -0.225,
+   -0.0024
+  ],
+  "bbox_max": [
+   0.275,
+   0.225,
+   0.5483
+  ],
+  "center_xy": [
+   0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/side_table_01.png",
+  "notes": "Minimalist oak side table / nightstand with two open shelves. 0.55 x 0.45 x 0.55 m, top z=0.548. Long axis X, open front and back (symmetric).",
+  "objects": [
+   "side_table_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2756,
+  "license": "CC0 (Poly Haven)",
+  "heights_m": {
+   "top_z": 0.548
+  }
+ },
+ {
+  "id": "modern_wooden_cabinet",
+  "category": "tv_stand_sideboard",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/modern_wooden_cabinet/modern_wooden_cabinet_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "modern_wooden_cabinet"
+   ]
+  },
+  "dims_m": [
+   2.44,
+   0.52,
+   0.6801
+  ],
+  "bbox_min": [
+   -1.22,
+   -0.25,
+   0.0
+  ],
+  "bbox_max": [
+   1.22,
+   0.27,
+   0.6802
+  ],
+  "center_xy": [
+   0.0,
+   0.01
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/modern_wooden_cabinet.png",
+  "notes": "Low modern sideboard / TV stand: dark wood frame, light-wood vertical-slat curved sliding doors (front -Y), slim black legs. 2.44 x 0.52 x 0.68 m, top z=0.68. Collection also contains 2 non-rendering path curves (door slide paths) - harmless.",
+  "objects": [
+   "modern_wooden_cabinet_body",
+   "modern_wooden_cabinet_door_l",
+   "modern_wooden_cabinet_door_r",
+   "modern_wooden_cabinet_path_l",
+   "modern_wooden_cabinet_path_r"
+  ],
+  "resolution": "2k",
+  "polycount_source": 24976,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "modern_wooden_cabinet_body": {
+    "bbox_min": [
+     -1.22,
+     -0.25,
+     0.0
+    ],
+    "bbox_max": [
+     1.22,
+     0.27,
+     0.6802
+    ],
+    "dims_m": [
+     2.44,
+     0.52,
+     0.6801
+    ]
+   },
+   "modern_wooden_cabinet_door_l": {
+    "bbox_min": [
+     -1.2,
+     -0.2402,
+     0.164
+    ],
+    "bbox_max": [
+     -0.0103,
+     0.1123,
+     0.6403
+    ],
+    "dims_m": [
+     1.1897,
+     0.3524,
+     0.4763
+    ]
+   },
+   "modern_wooden_cabinet_door_r": {
+    "bbox_min": [
+     0.0107,
+     -0.24,
+     0.164
+    ],
+    "bbox_max": [
+     1.2,
+     0.1123,
+     0.6403
+    ],
+    "dims_m": [
+     1.1893,
+     0.3522,
+     0.4763
+    ]
+   }
+  },
+  "heights_m": {
+   "top_z": 0.68
+  }
+ },
+ {
+  "id": "drawer_cabinet",
+  "category": "storage",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/drawer_cabinet/drawer_cabinet_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "drawer_cabinet"
+   ]
+  },
+  "dims_m": [
+   1.1411,
+   0.4881,
+   1.8813
+  ],
+  "bbox_min": [
+   -0.5705,
+   -0.2404,
+   0.0
+  ],
+  "bbox_max": [
+   0.5705,
+   0.2477,
+   1.8813
+  ],
+  "center_xy": [
+   -0.0,
+   0.0036
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/drawer_cabinet.png",
+  "notes": "Modern shelving unit: black metal frame, warm-wood shelves + 4 drawers (front -Y). 1.14 x 0.49 x 1.88 m.",
+  "objects": [
+   "drawer_cabinet",
+   "drawer_cabinet_drawer_01",
+   "drawer_cabinet_drawer_02",
+   "drawer_cabinet_drawer_03",
+   "drawer_cabinet_drawer_04"
+  ],
+  "resolution": "2k",
+  "polycount_source": 26406,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "drawer_cabinet": {
+    "bbox_min": [
+     -0.5705,
+     -0.2388,
+     0.0
+    ],
+    "bbox_max": [
+     0.5705,
+     0.2477,
+     1.8813
+    ],
+    "dims_m": [
+     1.1411,
+     0.4865,
+     1.8813
+    ]
+   },
+   "drawer_cabinet_drawer_01": {
+    "bbox_min": [
+     -0.5193,
+     -0.2404,
+     0.9544
+    ],
+    "bbox_max": [
+     0.5145,
+     0.1875,
+     1.1033
+    ],
+    "dims_m": [
+     1.0338,
+     0.428,
+     0.1489
+    ]
+   },
+   "drawer_cabinet_drawer_02": {
+    "bbox_min": [
+     -0.5193,
+     -0.2404,
+     0.7794
+    ],
+    "bbox_max": [
+     0.5145,
+     0.1875,
+     0.9283
+    ],
+    "dims_m": [
+     1.0338,
+     0.428,
+     0.1489
+    ]
+   },
+   "drawer_cabinet_drawer_03": {
+    "bbox_min": [
+     -0.5193,
+     -0.2404,
+     0.6045
+    ],
+    "bbox_max": [
+     0.5145,
+     0.1875,
+     0.7534
+    ],
+    "dims_m": [
+     1.0338,
+     0.428,
+     0.1489
+    ]
+   },
+   "drawer_cabinet_drawer_04": {
+    "bbox_min": [
+     -0.5193,
+     -0.2404,
+     0.4296
+    ],
+    "bbox_max": [
+     0.5145,
+     0.1875,
+     0.5784
+    ],
+    "dims_m": [
+     1.0338,
+     0.428,
+     0.1489
+    ]
+   }
+  }
+ },
+ {
+  "id": "ceramic_vase_01",
+  "category": "decor_vase",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/ceramic_vase_01/ceramic_vase_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "ceramic_vase_01"
+   ]
+  },
+  "dims_m": [
+   0.2036,
+   0.2036,
+   0.4003
+  ],
+  "bbox_min": [
+   -0.1018,
+   -0.1018,
+   0.0012
+  ],
+  "bbox_max": [
+   0.1018,
+   0.1018,
+   0.4015
+  ],
+  "center_xy": [
+   0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/ceramic_vase_01.png",
+  "notes": "Glossy white bottle vase with fluted rim, 0.40 m.",
+  "objects": [
+   "ceramic_vase_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2548,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "ceramic_vase_02",
+  "category": "decor_vase",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/ceramic_vase_02/ceramic_vase_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "ceramic_vase_02"
+   ]
+  },
+  "dims_m": [
+   0.2184,
+   0.2184,
+   0.3092
+  ],
+  "bbox_min": [
+   -0.1092,
+   -0.1092,
+   0.0011
+  ],
+  "bbox_max": [
+   0.1092,
+   0.1092,
+   0.3103
+  ],
+  "center_xy": [
+   0.0,
+   -0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/ceramic_vase_02.png",
+  "notes": "Matte off-white wide-mouth vase, 0.31 m.",
+  "objects": [
+   "ceramic_vase_02"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2756,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "ceramic_vase_03",
+  "category": "decor_vase",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/ceramic_vase_03/ceramic_vase_03_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "ceramic_vase_03"
+   ]
+  },
+  "dims_m": [
+   0.1122,
+   0.1122,
+   0.4144
+  ],
+  "bbox_min": [
+   -0.0561,
+   -0.0561,
+   0.0
+  ],
+  "bbox_max": [
+   0.0561,
+   0.0561,
+   0.4144
+  ],
+  "center_xy": [
+   -0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/ceramic_vase_03.png",
+  "notes": "Tall square-section matte white vase, 0.41 m.",
+  "objects": [
+   "ceramic_vase_03"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2784,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "ceramic_vase_04",
+  "category": "decor_vase",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/ceramic_vase_04/ceramic_vase_04_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "ceramic_vase_04"
+   ]
+  },
+  "dims_m": [
+   0.1811,
+   0.1811,
+   0.3419
+  ],
+  "bbox_min": [
+   -0.0906,
+   -0.0906,
+   0.0005
+  ],
+  "bbox_max": [
+   0.0906,
+   0.0906,
+   0.3425
+  ],
+  "center_xy": [
+   0.0,
+   0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/ceramic_vase_04.png",
+  "notes": "Matte white jug-vase with single handle (handle at +X), 0.34 m.",
+  "objects": [
+   "ceramic_vase_04"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2224,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "decorative_book_set_01",
+  "category": "decor_books",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/decorative_book_set_01/decorative_book_set_01_1k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "decorative_book_set_01"
+   ]
+  },
+  "dims_m": [
+   2.5049,
+   0.3211,
+   0.2857
+  ],
+  "bbox_min": [
+   -0.0207,
+   -0.211,
+   -0.0017
+  ],
+  "bbox_max": [
+   2.4842,
+   0.1101,
+   0.2839
+  ],
+  "center_xy": [
+   1.2317,
+   -0.0505
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/decorative_book_set_01.png",
+  "notes": "87 individual books (hard/softcover, varied colours) laid out in a 2.5 m row along X, spines facing -Y. Pick subsets by object name (see parts). Downloaded at 1K (2K was 208 MB).",
+  "objects": [
+   "book_softcover_01_cover01",
+   "book_hardcover_01_cover02",
+   "catalogue_hardcover_01_cover03",
+   "book_softcover_01_cover04",
+   "book_softcover_01_cover05",
+   "book_hardcover_01_cover06",
+   "book_hardcover_01_cover07",
+   "book_hardcover_01_cover08",
+   "book_softcover_01_cover09",
+   "catalogue_softcover_01_cover10",
+   "book_softcover_01_cover11",
+   "book_softcover_01_cover12",
+   "book_hardcover_01_cover13",
+   "book_softcover_01_cover14",
+   "book_hardcover_01_cover15",
+   "magazine_01_cover16",
+   "magazine_01_cover17",
+   "magazine_01_cover18",
+   "magazine_01_cover19",
+   "magazine_01_cover20",
+   "magazine_01_cover21",
+   "magazine_01_cover22",
+   "book_hardcover_01_cover23",
+   "book_hardcover_01_cover24",
+   "book_softcover_01_cover25",
+   "catalogue_softcover_01_cover26",
+   "book_softcover_01_cover27",
+   "book_softcover_01_cover28",
+   "book_hardcover_01_cover29",
+   "book_softcover_01_cover31",
+   "book_softcover_01_cover32",
+   "book_softcover_01_cover33",
+   "book_hardcover_01_cover34",
+   "book_hardcover_01_cover35",
+   "book_hardcover_01_cover36",
+   "book_hardcover_01_cover37",
+   "book_softcover_01_cover38",
+   "book_softcover_01_cover39",
+   "book_softcover_01_cover40",
+   "book_hardcover_01_cover41",
+   "book_hardcover_01_cover42",
+   "magazine_01_cover43",
+   "catalogue_hardcover_01_cover44",
+   "book_softcover_01_cover45",
+   "book_softcover_01_cover46",
+   "book_hardcover_01_cover47",
+   "book_hardcover_01_cover48",
+   "book_hardcover_01_cover49",
+   "magazine_01_cover50",
+   "book_hardcover_01_cover51",
+   "book_softcover_01_cover52",
+   "magazine_01_cover53",
+   "book_hardcover_01_cover54",
+   "catalogue_hardcover_01_cover55",
+   "book_softcover_01_cover56",
+   "catalogue_softcover_01_cover57",
+   "book_softcover_01_cover58",
+   "book_softcover_01_cover59",
+   "catalogue_hardcover_01_cover60",
+   "book_softcover_01_cover61",
+   "book_hardcover_01_cover62",
+   "book_softcover_01_cover63",
+   "book_softcover_01_cover64",
+   "book_hardcover_01_cover65",
+   "book_hardcover_01_cover66",
+   "book_softcover_01_cover67",
+   "book_hardcover_01_cover68",
+   "book_hardcover_01_cover69",
+   "book_softcover_01_cover70",
+   "magazine_01_cover71",
+   "magazine_01_cover72",
+   "magazine_01_cover73",
+   "magazine_01_cover74",
+   "book_hardcover_01_cover75",
+   "book_softcover_01_cover76",
+   "book_softcover_01_cover77",
+   "book_softcover_01_cover78",
+   "book_hardcover_01_cover79",
+   "book_hardcover_01_cover80",
+   "book_softcover_01_cover81",
+   "book_softcover_01_cover82",
+   "book_hardcover_01_cover83",
+   "book_hardcover_01_cover85",
+   "book_softcover_01_cover86",
+   "book_hardcover_01_cover87",
+   "book_softcover_01_cover88",
+   "magazine_01_cover89"
+  ],
+  "resolution": "1k",
+  "polycount_source": 112560,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "book_softcover_01_cover01": {
+    "bbox_min": [
+     -0.0207,
+     -0.0646,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.02,
+     0.0863,
+     0.2243
+    ],
+    "dims_m": [
+     0.0407,
+     0.151,
+     0.2256
+    ]
+   },
+   "book_hardcover_01_cover02": {
+    "bbox_min": [
+     0.02,
+     -0.0652,
+     0.0001
+    ],
+    "bbox_max": [
+     0.0619,
+     0.0884,
+     0.2273
+    ],
+    "dims_m": [
+     0.0419,
+     0.1536,
+     0.2272
+    ]
+   },
+   "catalogue_hardcover_01_cover03": {
+    "bbox_min": [
+     0.0616,
+     -0.211,
+     -0.0012
+    ],
+    "bbox_max": [
+     0.0841,
+     0.1101,
+     0.2839
+    ],
+    "dims_m": [
+     0.0225,
+     0.3211,
+     0.2852
+    ]
+   },
+   "book_softcover_01_cover04": {
+    "bbox_min": [
+     0.0814,
+     -0.0663,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.1224,
+     0.0856,
+     0.2256
+    ],
+    "dims_m": [
+     0.041,
+     0.1519,
+     0.2269
+    ]
+   },
+   "book_softcover_01_cover05": {
+    "bbox_min": [
+     0.1188,
+     -0.0632,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.1407,
+     0.0872,
+     0.2235
+    ],
+    "dims_m": [
+     0.0218,
+     0.1504,
+     0.2249
+    ]
+   },
+   "book_hardcover_01_cover06": {
+    "bbox_min": [
+     0.1401,
+     -0.0712,
+     0.0001
+    ],
+    "bbox_max": [
+     0.1818,
+     0.0817,
+     0.2264
+    ],
+    "dims_m": [
+     0.0417,
+     0.1529,
+     0.2263
+    ]
+   },
+   "book_hardcover_01_cover07": {
+    "bbox_min": [
+     0.1815,
+     -0.0691,
+     0.0001
+    ],
+    "bbox_max": [
+     0.2232,
+     0.0837,
+     0.2262
+    ],
+    "dims_m": [
+     0.0417,
+     0.1528,
+     0.2261
+    ]
+   },
+   "book_hardcover_01_cover08": {
+    "bbox_min": [
+     0.2243,
+     -0.073,
+     0.0001
+    ],
+    "bbox_max": [
+     0.266,
+     0.0989,
+     0.2265
+    ],
+    "dims_m": [
+     0.0417,
+     0.1719,
+     0.2264
+    ]
+   },
+   "book_softcover_01_cover09": {
+    "bbox_min": [
+     0.2641,
+     -0.0799,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.305,
+     0.0718,
+     0.2254
+    ],
+    "dims_m": [
+     0.0409,
+     0.1517,
+     0.2268
+    ]
+   },
+   "catalogue_softcover_01_cover10": {
+    "bbox_min": [
+     0.3022,
+     -0.0773,
+     -0.001
+    ],
+    "bbox_max": [
+     0.3139,
+     0.1001,
+     0.2267
+    ],
+    "dims_m": [
+     0.0117,
+     0.1774,
+     0.2277
+    ]
+   },
+   "book_softcover_01_cover11": {
+    "bbox_min": [
+     0.3109,
+     -0.0717,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.3333,
+     0.0789,
+     0.2237
+    ],
+    "dims_m": [
+     0.0224,
+     0.1506,
+     0.2251
+    ]
+   },
+   "book_softcover_01_cover12": {
+    "bbox_min": [
+     0.3309,
+     -0.0695,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.3716,
+     0.0814,
+     0.2241
+    ],
+    "dims_m": [
+     0.0407,
+     0.1509,
+     0.2255
+    ]
+   },
+   "book_hardcover_01_cover13": {
+    "bbox_min": [
+     0.3712,
+     -0.0705,
+     -0.0002
+    ],
+    "bbox_max": [
+     0.4128,
+     0.082,
+     0.2256
+    ],
+    "dims_m": [
+     0.0416,
+     0.1526,
+     0.2257
+    ]
+   },
+   "book_softcover_01_cover14": {
+    "bbox_min": [
+     0.4102,
+     -0.0725,
+     -0.0013
+    ],
+    "bbox_max": [
+     0.4427,
+     0.0877,
+     0.2233
+    ],
+    "dims_m": [
+     0.0325,
+     0.1603,
+     0.2246
+    ]
+   },
+   "book_hardcover_01_cover15": {
+    "bbox_min": [
+     0.442,
+     -0.0691,
+     0.0001
+    ],
+    "bbox_max": [
+     0.4801,
+     0.0839,
+     0.2266
+    ],
+    "dims_m": [
+     0.0381,
+     0.153,
+     0.2265
+    ]
+   },
+   "magazine_01_cover16": {
+    "bbox_min": [
+     0.4789,
+     -0.1036,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.4903,
+     0.1082,
+     0.2707
+    ],
+    "dims_m": [
+     0.0114,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover17": {
+    "bbox_min": [
+     0.4874,
+     -0.1056,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.4973,
+     0.1062,
+     0.2707
+    ],
+    "dims_m": [
+     0.0099,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover18": {
+    "bbox_min": [
+     0.4944,
+     -0.1106,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.5043,
+     0.1011,
+     0.2707
+    ],
+    "dims_m": [
+     0.0099,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover19": {
+    "bbox_min": [
+     0.5013,
+     -0.1087,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.5125,
+     0.1032,
+     0.2707
+    ],
+    "dims_m": [
+     0.0112,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover20": {
+    "bbox_min": [
+     0.5096,
+     -0.1134,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.5208,
+     0.0985,
+     0.2707
+    ],
+    "dims_m": [
+     0.0112,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover21": {
+    "bbox_min": [
+     0.5173,
+     -0.1049,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.5285,
+     0.1069,
+     0.2707
+    ],
+    "dims_m": [
+     0.0112,
+     0.2118,
+     0.2711
+    ]
+   },
+   "magazine_01_cover22": {
+    "bbox_min": [
+     0.5255,
+     -0.1103,
+     -0.0004
+    ],
+    "bbox_max": [
+     0.5367,
+     0.1015,
+     0.2707
+    ],
+    "dims_m": [
+     0.0112,
+     0.2118,
+     0.2711
+    ]
+   },
+   "book_hardcover_01_cover23": {
+    "bbox_min": [
+     0.5351,
+     -0.0665,
+     -0.0002
+    ],
+    "bbox_max": [
+     0.5745,
+     0.0867,
+     0.2265
+    ],
+    "dims_m": [
+     0.0394,
+     0.1532,
+     0.2267
+    ]
+   },
+   "book_hardcover_01_cover24": {
+    "bbox_min": [
+     0.5752,
+     -0.0695,
+     0.0001
+    ],
+    "bbox_max": [
+     0.6145,
+     0.083,
+     0.2258
+    ],
+    "dims_m": [
+     0.0393,
+     0.1525,
+     0.2257
+    ]
+   },
+   "book_softcover_01_cover25": {
+    "bbox_min": [
+     0.6152,
+     -0.0675,
+     0.0
+    ],
+    "bbox_max": [
+     0.6415,
+     0.082,
+     0.2248
+    ],
+    "dims_m": [
+     0.0263,
+     0.1495,
+     0.2248
+    ]
+   },
+   "catalogue_softcover_01_cover26": {
+    "bbox_min": [
+     0.6409,
+     -0.116,
+     -0.0007
+    ],
+    "bbox_max": [
+     0.653,
+     0.1064,
+     0.2264
+    ],
+    "dims_m": [
+     0.012,
+     0.2223,
+     0.2271
+    ]
+   },
+   "book_softcover_01_cover27": {
+    "bbox_min": [
+     0.6505,
+     -0.0699,
+     -0.0013
+    ],
+    "bbox_max": [
+     0.683,
+     0.0809,
+     0.224
+    ],
+    "dims_m": [
+     0.0324,
+     0.1509,
+     0.2253
+    ]
+   },
+   "book_softcover_01_cover28": {
+    "bbox_min": [
+     0.6798,
+     -0.0693,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.7018,
+     0.0824,
+     0.2255
+    ],
+    "dims_m": [
+     0.022,
+     0.1517,
+     0.2269
+    ]
+   },
+   "book_hardcover_01_cover29": {
+    "bbox_min": [
+     0.7015,
+     -0.0699,
+     0.0001
+    ],
+    "bbox_max": [
+     0.7342,
+     0.0824,
+     0.2254
+    ],
+    "dims_m": [
+     0.0327,
+     0.1523,
+     0.2253
+    ]
+   },
+   "book_softcover_01_cover31": {
+    "bbox_min": [
+     0.7326,
+     -0.0686,
+     -0.0013
+    ],
+    "bbox_max": [
+     0.7663,
+     0.083,
+     0.2251
+    ],
+    "dims_m": [
+     0.0336,
+     0.1516,
+     0.2264
+    ]
+   },
+   "book_softcover_01_cover32": {
+    "bbox_min": [
+     0.7641,
+     -0.0646,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.786,
+     0.0861,
+     0.224
+    ],
+    "dims_m": [
+     0.0219,
+     0.1508,
+     0.2255
+    ]
+   },
+   "book_softcover_01_cover33": {
+    "bbox_min": [
+     0.7836,
+     -0.0651,
+     -0.0013
+    ],
+    "bbox_max": [
+     0.8182,
+     0.0874,
+     0.2264
+    ],
+    "dims_m": [
+     0.0347,
+     0.1525,
+     0.2277
+    ]
+   },
+   "book_hardcover_01_cover34": {
+    "bbox_min": [
+     0.8178,
+     -0.0711,
+     0.0001
+    ],
+    "bbox_max": [
+     0.8578,
+     0.0818,
+     0.2263
+    ],
+    "dims_m": [
+     0.04,
+     0.1529,
+     0.2262
+    ]
+   },
+   "book_hardcover_01_cover35": {
+    "bbox_min": [
+     0.8586,
+     -0.0637,
+     0.0001
+    ],
+    "bbox_max": [
+     0.8986,
+     0.0894,
+     0.2266
+    ],
+    "dims_m": [
+     0.04,
+     0.1531,
+     0.2265
+    ]
+   },
+   "book_hardcover_01_cover36": {
+    "bbox_min": [
+     0.8999,
+     -0.0687,
+     0.0001
+    ],
+    "bbox_max": [
+     0.9368,
+     0.0834,
+     0.2251
+    ],
+    "dims_m": [
+     0.0368,
+     0.1521,
+     0.225
+    ]
+   },
+   "book_hardcover_01_cover37": {
+    "bbox_min": [
+     0.9372,
+     -0.0689,
+     0.0001
+    ],
+    "bbox_max": [
+     0.974,
+     0.0828,
+     0.2247
+    ],
+    "dims_m": [
+     0.0368,
+     0.1518,
+     0.2246
+    ]
+   },
+   "book_softcover_01_cover38": {
+    "bbox_min": [
+     0.9733,
+     -0.0647,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.0136,
+     0.0846,
+     0.2219
+    ],
+    "dims_m": [
+     0.0403,
+     0.1494,
+     0.2232
+    ]
+   },
+   "book_softcover_01_cover39": {
+    "bbox_min": [
+     1.0114,
+     -0.0661,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.0526,
+     0.0867,
+     0.227
+    ],
+    "dims_m": [
+     0.0412,
+     0.1528,
+     0.2283
+    ]
+   },
+   "book_softcover_01_cover40": {
+    "bbox_min": [
+     1.0482,
+     -0.0727,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.0706,
+     0.0778,
+     0.2236
+    ],
+    "dims_m": [
+     0.0224,
+     0.1505,
+     0.2251
+    ]
+   },
+   "book_hardcover_01_cover41": {
+    "bbox_min": [
+     1.0701,
+     -0.0637,
+     -0.0002
+    ],
+    "bbox_max": [
+     1.1114,
+     0.0878,
+     0.224
+    ],
+    "dims_m": [
+     0.0413,
+     0.1515,
+     0.2242
+    ]
+   },
+   "book_hardcover_01_cover42": {
+    "bbox_min": [
+     1.1124,
+     -0.0667,
+     0.0001
+    ],
+    "bbox_max": [
+     1.152,
+     0.0853,
+     0.2249
+    ],
+    "dims_m": [
+     0.0396,
+     0.1519,
+     0.2248
+    ]
+   },
+   "magazine_01_cover43": {
+    "bbox_min": [
+     1.151,
+     -0.1174,
+     -0.0004
+    ],
+    "bbox_max": [
+     1.1609,
+     0.0944,
+     0.2707
+    ],
+    "dims_m": [
+     0.0099,
+     0.2118,
+     0.2711
+    ]
+   },
+   "catalogue_hardcover_01_cover44": {
+    "bbox_min": [
+     1.1576,
+     -0.1192,
+     -0.0012
+    ],
+    "bbox_max": [
+     1.1799,
+     0.1025,
+     0.2809
+    ],
+    "dims_m": [
+     0.0223,
+     0.2217,
+     0.2821
+    ]
+   },
+   "book_softcover_01_cover45": {
+    "bbox_min": [
+     1.176,
+     -0.0734,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.1987,
+     0.0752,
+     0.2207
+    ],
+    "dims_m": [
+     0.0227,
+     0.1486,
+     0.2221
+    ]
+   },
+   "book_softcover_01_cover46": {
+    "bbox_min": [
+     1.1971,
+     -0.0644,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.2369,
+     0.0833,
+     0.2193
+    ],
+    "dims_m": [
+     0.0398,
+     0.1476,
+     0.2206
+    ]
+   },
+   "book_hardcover_01_cover47": {
+    "bbox_min": [
+     1.2365,
+     -0.0674,
+     0.0001
+    ],
+    "bbox_max": [
+     1.2761,
+     0.0859,
+     0.227
+    ],
+    "dims_m": [
+     0.0396,
+     0.1533,
+     0.2269
+    ]
+   },
+   "book_hardcover_01_cover48": {
+    "bbox_min": [
+     1.277,
+     -0.0656,
+     0.0001
+    ],
+    "bbox_max": [
+     1.3188,
+     0.0878,
+     0.227
+    ],
+    "dims_m": [
+     0.0418,
+     0.1533,
+     0.2269
+    ]
+   },
+   "book_hardcover_01_cover49": {
+    "bbox_min": [
+     1.3194,
+     -0.0663,
+     0.0001
+    ],
+    "bbox_max": [
+     1.3524,
+     0.0856,
+     0.2249
+    ],
+    "dims_m": [
+     0.033,
+     0.1519,
+     0.2248
+    ]
+   },
+   "magazine_01_cover50": {
+    "bbox_min": [
+     1.3524,
+     -0.1028,
+     -0.0005
+    ],
+    "bbox_max": [
+     1.3636,
+     0.1025,
+     0.2709
+    ],
+    "dims_m": [
+     0.0112,
+     0.2053,
+     0.2713
+    ]
+   },
+   "book_hardcover_01_cover51": {
+    "bbox_min": [
+     1.3621,
+     -0.0656,
+     0.0001
+    ],
+    "bbox_max": [
+     1.4035,
+     0.0855,
+     0.2251
+    ],
+    "dims_m": [
+     0.0415,
+     0.151,
+     0.225
+    ]
+   },
+   "book_softcover_01_cover52": {
+    "bbox_min": [
+     1.4013,
+     -0.0612,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.424,
+     0.0869,
+     0.22
+    ],
+    "dims_m": [
+     0.0227,
+     0.1481,
+     0.2214
+    ]
+   },
+   "magazine_01_cover53": {
+    "bbox_min": [
+     1.4218,
+     -0.1016,
+     -0.0004
+    ],
+    "bbox_max": [
+     1.4307,
+     0.1037,
+     0.2708
+    ],
+    "dims_m": [
+     0.009,
+     0.2053,
+     0.2713
+    ]
+   },
+   "book_hardcover_01_cover54": {
+    "bbox_min": [
+     1.4286,
+     -0.0689,
+     0.0001
+    ],
+    "bbox_max": [
+     1.4669,
+     0.0845,
+     0.227
+    ],
+    "dims_m": [
+     0.0383,
+     0.1534,
+     0.2269
+    ]
+   },
+   "catalogue_hardcover_01_cover55": {
+    "bbox_min": [
+     1.4651,
+     -0.1208,
+     -0.0017
+    ],
+    "bbox_max": [
+     1.4935,
+     0.1023,
+     0.2834
+    ],
+    "dims_m": [
+     0.0285,
+     0.2231,
+     0.2852
+    ]
+   },
+   "book_softcover_01_cover56": {
+    "bbox_min": [
+     1.4893,
+     -0.0748,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.5314,
+     0.0746,
+     0.222
+    ],
+    "dims_m": [
+     0.0421,
+     0.1494,
+     0.2234
+    ]
+   },
+   "catalogue_softcover_01_cover57": {
+    "bbox_min": [
+     1.5299,
+     -0.0862,
+     -0.001
+    ],
+    "bbox_max": [
+     1.5427,
+     0.0791,
+     0.2267
+    ],
+    "dims_m": [
+     0.0129,
+     0.1653,
+     0.2276
+    ]
+   },
+   "book_softcover_01_cover58": {
+    "bbox_min": [
+     1.5405,
+     -0.0734,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.5757,
+     0.0783,
+     0.2252
+    ],
+    "dims_m": [
+     0.0352,
+     0.1517,
+     0.2265
+    ]
+   },
+   "book_softcover_01_cover59": {
+    "bbox_min": [
+     1.5726,
+     -0.0686,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.6115,
+     0.0813,
+     0.2226
+    ],
+    "dims_m": [
+     0.0389,
+     0.1499,
+     0.224
+    ]
+   },
+   "catalogue_hardcover_01_cover60": {
+    "bbox_min": [
+     1.6094,
+     -0.1087,
+     -0.0012
+    ],
+    "bbox_max": [
+     1.6476,
+     0.1079,
+     0.2287
+    ],
+    "dims_m": [
+     0.0382,
+     0.2166,
+     0.23
+    ]
+   },
+   "book_softcover_01_cover61": {
+    "bbox_min": [
+     1.6441,
+     -0.0744,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.6783,
+     0.078,
+     0.2262
+    ],
+    "dims_m": [
+     0.0342,
+     0.1523,
+     0.2275
+    ]
+   },
+   "book_hardcover_01_cover62": {
+    "bbox_min": [
+     1.6773,
+     -0.0766,
+     0.0001
+    ],
+    "bbox_max": [
+     1.7035,
+     0.0758,
+     0.2256
+    ],
+    "dims_m": [
+     0.0262,
+     0.1524,
+     0.2255
+    ]
+   },
+   "book_softcover_01_cover63": {
+    "bbox_min": [
+     1.7022,
+     -0.077,
+     -0.0013
+    ],
+    "bbox_max": [
+     1.7445,
+     0.0722,
+     0.2217
+    ],
+    "dims_m": [
+     0.0423,
+     0.1492,
+     0.223
+    ]
+   },
+   "book_softcover_01_cover64": {
+    "bbox_min": [
+     1.7418,
+     -0.0722,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.7849,
+     0.08,
+     0.2261
+    ],
+    "dims_m": [
+     0.0431,
+     0.1522,
+     0.2275
+    ]
+   },
+   "book_hardcover_01_cover65": {
+    "bbox_min": [
+     1.7841,
+     -0.0801,
+     0.0001
+    ],
+    "bbox_max": [
+     1.8253,
+     0.0731,
+     0.2269
+    ],
+    "dims_m": [
+     0.0412,
+     0.1532,
+     0.2268
+    ]
+   },
+   "book_hardcover_01_cover66": {
+    "bbox_min": [
+     1.8255,
+     -0.0765,
+     0.0001
+    ],
+    "bbox_max": [
+     1.8645,
+     0.076,
+     0.2258
+    ],
+    "dims_m": [
+     0.039,
+     0.1525,
+     0.2257
+    ]
+   },
+   "book_softcover_01_cover67": {
+    "bbox_min": [
+     1.8636,
+     -0.0674,
+     -0.0014
+    ],
+    "bbox_max": [
+     1.906,
+     0.0824,
+     0.2227
+    ],
+    "dims_m": [
+     0.0425,
+     0.1499,
+     0.224
+    ]
+   },
+   "book_hardcover_01_cover68": {
+    "bbox_min": [
+     1.9057,
+     -0.0733,
+     0.0001
+    ],
+    "bbox_max": [
+     1.9467,
+     0.0791,
+     0.2257
+    ],
+    "dims_m": [
+     0.041,
+     0.1525,
+     0.2256
+    ]
+   },
+   "book_hardcover_01_cover69": {
+    "bbox_min": [
+     1.9475,
+     -0.0737,
+     0.0001
+    ],
+    "bbox_max": [
+     1.9888,
+     0.0798,
+     0.2273
+    ],
+    "dims_m": [
+     0.0413,
+     0.1535,
+     0.2272
+    ]
+   },
+   "book_softcover_01_cover70": {
+    "bbox_min": [
+     1.9866,
+     -0.0701,
+     -0.0013
+    ],
+    "bbox_max": [
+     2.0222,
+     0.0811,
+     0.2244
+    ],
+    "dims_m": [
+     0.0356,
+     0.1511,
+     0.2257
+    ]
+   },
+   "magazine_01_cover71": {
+    "bbox_min": [
+     2.0194,
+     -0.1038,
+     -0.0005
+    ],
+    "bbox_max": [
+     2.0298,
+     0.1015,
+     0.2708
+    ],
+    "dims_m": [
+     0.0103,
+     0.2053,
+     0.2713
+    ]
+   },
+   "magazine_01_cover72": {
+    "bbox_min": [
+     2.0265,
+     -0.1035,
+     -0.0005
+    ],
+    "bbox_max": [
+     2.0374,
+     0.1018,
+     0.2709
+    ],
+    "dims_m": [
+     0.011,
+     0.2053,
+     0.2713
+    ]
+   },
+   "magazine_01_cover73": {
+    "bbox_min": [
+     2.0338,
+     -0.0996,
+     -0.0005
+    ],
+    "bbox_max": [
+     2.0447,
+     0.1057,
+     0.2709
+    ],
+    "dims_m": [
+     0.011,
+     0.2053,
+     0.2713
+    ]
+   },
+   "magazine_01_cover74": {
+    "bbox_min": [
+     2.0411,
+     -0.112,
+     -0.0005
+    ],
+    "bbox_max": [
+     2.052,
+     0.0933,
+     0.2709
+    ],
+    "dims_m": [
+     0.011,
+     0.2053,
+     0.2713
+    ]
+   },
+   "book_hardcover_01_cover75": {
+    "bbox_min": [
+     2.0503,
+     -0.0783,
+     0.0001
+    ],
+    "bbox_max": [
+     2.0807,
+     0.0745,
+     0.2263
+    ],
+    "dims_m": [
+     0.0304,
+     0.1529,
+     0.2262
+    ]
+   },
+   "book_softcover_01_cover76": {
+    "bbox_min": [
+     2.0785,
+     -0.0692,
+     -0.0014
+    ],
+    "bbox_max": [
+     2.1033,
+     0.0815,
+     0.2237
+    ],
+    "dims_m": [
+     0.0247,
+     0.1506,
+     0.2251
+    ]
+   },
+   "book_softcover_01_cover77": {
+    "bbox_min": [
+     2.1006,
+     -0.0702,
+     -0.0013
+    ],
+    "bbox_max": [
+     2.1387,
+     0.0801,
+     0.2231
+    ],
+    "dims_m": [
+     0.0381,
+     0.1503,
+     0.2244
+    ]
+   },
+   "book_softcover_01_cover78": {
+    "bbox_min": [
+     2.1358,
+     -0.0665,
+     -0.0013
+    ],
+    "bbox_max": [
+     2.171,
+     0.0854,
+     0.2255
+    ],
+    "dims_m": [
+     0.0352,
+     0.1519,
+     0.2268
+    ]
+   },
+   "book_hardcover_01_cover79": {
+    "bbox_min": [
+     2.1705,
+     -0.0734,
+     -0.0002
+    ],
+    "bbox_max": [
+     2.2078,
+     0.0799,
+     0.2267
+    ],
+    "dims_m": [
+     0.0373,
+     0.1533,
+     0.2268
+    ]
+   },
+   "book_hardcover_01_cover80": {
+    "bbox_min": [
+     2.2084,
+     -0.0679,
+     -0.0002
+    ],
+    "bbox_max": [
+     2.2433,
+     0.0853,
+     0.2266
+    ],
+    "dims_m": [
+     0.0349,
+     0.1532,
+     0.2267
+    ]
+   },
+   "book_softcover_01_cover81": {
+    "bbox_min": [
+     2.2419,
+     -0.0742,
+     -0.0014
+    ],
+    "bbox_max": [
+     2.2682,
+     0.0774,
+     0.225
+    ],
+    "dims_m": [
+     0.0263,
+     0.1515,
+     0.2264
+    ]
+   },
+   "book_softcover_01_cover82": {
+    "bbox_min": [
+     2.2661,
+     -0.0696,
+     -0.0011
+    ],
+    "bbox_max": [
+     2.2922,
+     0.0813,
+     0.2243
+    ],
+    "dims_m": [
+     0.0262,
+     0.1509,
+     0.2254
+    ]
+   },
+   "book_hardcover_01_cover83": {
+    "bbox_min": [
+     2.2917,
+     -0.0711,
+     -0.0004
+    ],
+    "bbox_max": [
+     2.3268,
+     0.0818,
+     0.2259
+    ],
+    "dims_m": [
+     0.0351,
+     0.1529,
+     0.2263
+    ]
+   },
+   "book_hardcover_01_cover85": {
+    "bbox_min": [
+     2.3274,
+     -0.0687,
+     0.0001
+    ],
+    "bbox_max": [
+     2.3692,
+     0.0838,
+     0.2272
+    ],
+    "dims_m": [
+     0.0418,
+     0.1524,
+     0.2271
+    ]
+   },
+   "book_softcover_01_cover86": {
+    "bbox_min": [
+     2.3681,
+     -0.0669,
+     -0.0013
+    ],
+    "bbox_max": [
+     2.3994,
+     0.0837,
+     0.2237
+    ],
+    "dims_m": [
+     0.0313,
+     0.1506,
+     0.2249
+    ]
+   },
+   "book_hardcover_01_cover87": {
+    "bbox_min": [
+     2.3994,
+     -0.0749,
+     0.0001
+    ],
+    "bbox_max": [
+     2.4412,
+     0.0774,
+     0.227
+    ],
+    "dims_m": [
+     0.0418,
+     0.1523,
+     0.2269
+    ]
+   },
+   "book_softcover_01_cover88": {
+    "bbox_min": [
+     2.4413,
+     -0.0733,
+     0.0001
+    ],
+    "bbox_max": [
+     2.4762,
+     0.0789,
+     0.2253
+    ],
+    "dims_m": [
+     0.0349,
+     0.1522,
+     0.2252
+    ]
+   },
+   "magazine_01_cover89": {
+    "bbox_min": [
+     2.4748,
+     -0.1018,
+     -0.0004
+    ],
+    "bbox_max": [
+     2.4842,
+     0.1035,
+     0.2708
+    ],
+    "dims_m": [
+     0.0094,
+     0.2053,
+     0.2713
+    ]
+   }
+  }
+ },
+ {
+  "id": "standing_picture_frame_01",
+  "category": "decor_frame",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/standing_picture_frame_01/standing_picture_frame_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "standing_picture_frame_01"
+   ]
+  },
+  "dims_m": [
+   0.2008,
+   0.1003,
+   0.2497
+  ],
+  "bbox_min": [
+   -0.0697,
+   -0.0747,
+   -0.0005
+  ],
+  "bbox_max": [
+   0.1311,
+   0.0256,
+   0.2492
+  ],
+  "center_xy": [
+   0.0307,
+   -0.0245
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/standing_picture_frame_01.png",
+  "notes": "Slim black standing photo frame with white mat and B&W photo; picture faces -Y, easel stand at +Y. 0.20 x 0.25 m.",
+  "objects": [
+   "standing_picture_frame_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 1634,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "hanging_picture_frame_01",
+  "category": "decor_frame",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/hanging_picture_frame_01/hanging_picture_frame_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "hanging_picture_frame_01"
+   ]
+  },
+  "dims_m": [
+   0.594,
+   0.0157,
+   0.841
+  ],
+  "bbox_min": [
+   -0.297,
+   -0.0159,
+   -0.4205
+  ],
+  "bbox_max": [
+   0.297,
+   -0.0001,
+   0.4205
+  ],
+  "center_xy": [
+   0.0,
+   -0.008
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/hanging_picture_frame_01.png",
+  "notes": "Minimal black metal wall frame with white mat and grey poster, 0.59 x 0.84 m. Origin at frame centre, back plane at y=0 (bbox y -0.016..0): put origin on the wall surface, picture faces -Y (rotate so -Y points into the room); z is centred (-0.42..+0.42). Image texture could be swapped.",
+  "objects": [
+   "hanging_picture_frame_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2586,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "wall_clock",
+  "category": "decor_misc",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/wall_clock/wall_clock_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "wall_clock"
+   ]
+  },
+  "dims_m": [
+   0.3205,
+   0.0472,
+   0.3205
+  ],
+  "bbox_min": [
+   -0.1602,
+   -0.0472,
+   -0.1602
+  ],
+  "bbox_max": [
+   0.1602,
+   0.0,
+   0.1602
+  ],
+  "center_xy": [
+   0.0,
+   -0.0236
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/wall_clock.png",
+  "notes": "Round modern wall clock (0.32 m dia) - dial faces -Y; origin at clock centre with back plane at y=0 - place origin on the wall surface. Objects: body + 3 hands.",
+  "objects": [
+   "wall_clock_minute_hand",
+   "wall_clock_second_hand",
+   "wall_clock_hours_hand",
+   "wall_clock"
+  ],
+  "resolution": "2k",
+  "polycount_source": 3658,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "wall_clock_minute_hand": {
+    "bbox_min": [
+     -0.0174,
+     -0.0293,
+     -0.0118
+    ],
+    "bbox_max": [
+     0.1005,
+     -0.029,
+     0.0641
+    ],
+    "dims_m": [
+     0.1179,
+     0.0003,
+     0.0759
+    ]
+   },
+   "wall_clock_second_hand": {
+    "bbox_min": [
+     -0.0072,
+     -0.0313,
+     -0.1328
+    ],
+    "bbox_max": [
+     0.0228,
+     -0.0252,
+     0.0285
+    ],
+    "dims_m": [
+     0.03,
+     0.0061,
+     0.1613
+    ]
+   },
+   "wall_clock_hours_hand": {
+    "bbox_min": [
+     -0.0766,
+     -0.0283,
+     -0.0098
+    ],
+    "bbox_max": [
+     0.0122,
+     -0.028,
+     0.0546
+    ],
+    "dims_m": [
+     0.0888,
+     0.0003,
+     0.0644
+    ]
+   },
+   "wall_clock": {
+    "bbox_min": [
+     -0.1602,
+     -0.0472,
+     -0.1602
+    ],
+    "bbox_max": [
+     0.1602,
+     0.0,
+     0.1602
+    ],
+    "dims_m": [
+     0.3205,
+     0.0472,
+     0.3205
+    ]
+   }
+  }
+ },
+ {
+  "id": "wicker_basket_02",
+  "category": "decor_misc",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/wicker_basket_02/wicker_basket_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "wicker_basket_02"
+   ]
+  },
+  "dims_m": [
+   0.3469,
+   0.2545,
+   0.2005
+  ],
+  "bbox_min": [
+   -0.1076,
+   -0.1092,
+   -0.0003
+  ],
+  "bbox_max": [
+   0.2393,
+   0.1453,
+   0.2002
+  ],
+  "center_xy": [
+   0.0659,
+   0.018
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/wicker_basket_02.png",
+  "notes": "Woven rattan basket with lid; lid object (wicker_basket_02_lid) is leaning beside the base - append only wicker_basket_02_base or reposition the lid.",
+  "objects": [
+   "wicker_basket_02_base",
+   "wicker_basket_02_lid"
+  ],
+  "resolution": "2k",
+  "polycount_source": 17850,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "wicker_basket_02_base": {
+    "bbox_min": [
+     -0.1076,
+     -0.1092,
+     -0.0003
+    ],
+    "bbox_max": [
+     0.1044,
+     0.1071,
+     0.2002
+    ],
+    "dims_m": [
+     0.2119,
+     0.2163,
+     0.2005
+    ]
+   },
+   "wicker_basket_02_lid": {
+    "bbox_min": [
+     0.0794,
+     -0.0816,
+     -0.0002
+    ],
+    "bbox_max": [
+     0.2393,
+     0.1453,
+     0.1949
+    ],
+    "dims_m": [
+     0.16,
+     0.2269,
+     0.1951
+    ]
+   }
+  }
+ },
+ {
+  "id": "wooden_bowl_01",
+  "category": "decor_bowl",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/wooden_bowl_01/wooden_bowl_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "wooden_bowl_01"
+   ]
+  },
+  "dims_m": [
+   0.3131,
+   0.3091,
+   0.0937
+  ],
+  "bbox_min": [
+   -0.1568,
+   -0.1552,
+   0.0005
+  ],
+  "bbox_max": [
+   0.1562,
+   0.1539,
+   0.0942
+  ],
+  "center_xy": [
+   -0.0003,
+   -0.0007
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/wooden_bowl_01.png",
+  "notes": "Rustic hand-carved wooden bowl, 0.31 m dia - usable as fruit bowl.",
+  "objects": [
+   "wooden_bowl_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 14122,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "carved_wooden_plate",
+  "category": "decor_bowl",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/carved_wooden_plate/carved_wooden_plate_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "carved_wooden_plate"
+   ]
+  },
+  "dims_m": [
+   0.2718,
+   0.2688,
+   0.0381
+  ],
+  "bbox_min": [
+   -0.1375,
+   -0.1267,
+   -0.0019
+  ],
+  "bbox_max": [
+   0.1343,
+   0.1421,
+   0.0363
+  ],
+  "center_xy": [
+   -0.0016,
+   0.0077
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/carved_wooden_plate.png",
+  "notes": "Carved wooden plate / shallow platter 0.27 m dia.",
+  "objects": [
+   "carved_wooden_plate"
+  ],
+  "resolution": "2k",
+  "polycount_source": 2112,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "throw_pillows_01",
+  "category": "cushions",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/throw_pillows_01/throw_pillows_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "throw_pillows_01"
+   ]
+  },
+  "dims_m": [
+   0.9401,
+   0.4519,
+   0.4502
+  ],
+  "bbox_min": [
+   -0.4635,
+   -0.2761,
+   -0.0021
+  ],
+  "bbox_max": [
+   0.4765,
+   0.1758,
+   0.4481
+  ],
+  "center_xy": [
+   0.0065,
+   -0.0501
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/throw_pillows_01.png",
+  "notes": "Two upright throw pillows (~0.45 m square) with bold red/orange chevron fabric. Objects pillow01/pillow02 are rotated 90deg about X (standing).",
+  "objects": [
+   "throw_pillows_01_pillow02",
+   "throw_pillows_01_pillow01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 6362,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "throw_pillows_01_pillow02": {
+    "bbox_min": [
+     -0.0255,
+     -0.1543,
+     -0.0014
+    ],
+    "bbox_max": [
+     0.4765,
+     0.1758,
+     0.4412
+    ],
+    "dims_m": [
+     0.502,
+     0.3301,
+     0.4426
+    ]
+   },
+   "throw_pillows_01_pillow01": {
+    "bbox_min": [
+     -0.4635,
+     -0.2761,
+     -0.0021
+    ],
+    "bbox_max": [
+     0.1084,
+     0.1507,
+     0.4481
+    ],
+    "dims_m": [
+     0.572,
+     0.4267,
+     0.4502
+    ]
+   }
+  }
+ },
+ {
+  "id": "wooden_cutting_board",
+  "category": "kitchen",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/wooden_cutting_board/wooden_cutting_board_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "wooden_cutting_board"
+   ]
+  },
+  "dims_m": [
+   0.4499,
+   0.2467,
+   0.0413
+  ],
+  "bbox_min": [
+   -0.2242,
+   -0.1234,
+   0.0001
+  ],
+  "bbox_max": [
+   0.2257,
+   0.1233,
+   0.0413
+  ],
+  "center_xy": [
+   0.0007,
+   -0.0
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/wooden_cutting_board.png",
+  "notes": "Worn hardwood cutting board 0.45 x 0.25 x 0.04 m, long axis X.",
+  "objects": [
+   "wooden_cutting_board"
+  ],
+  "resolution": "2k",
+  "polycount_source": 3520,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "vintage_electric_kettle",
+  "category": "kitchen",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/vintage_electric_kettle/vintage_electric_kettle_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "vintage_electric_kettle"
+   ]
+  },
+  "dims_m": [
+   0.3209,
+   0.2486,
+   0.3047
+  ],
+  "bbox_min": [
+   -0.1649,
+   -0.1243,
+   0.0
+  ],
+  "bbox_max": [
+   0.1559,
+   0.1243,
+   0.3047
+  ],
+  "center_xy": [
+   -0.0045,
+   0.0
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/vintage_electric_kettle.png",
+  "notes": "Vintage metal electric kettle (bell shape, wood handle), 0.30 m tall; thermometer faces -Y, spout towards -X. Only kettle-type item available.",
+  "objects": [
+   "vintage_electric_kettle"
+  ],
+  "resolution": "2k",
+  "polycount_source": 14838,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "wine_bottles_01",
+  "category": "kitchen",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/wine_bottles_01/wine_bottles_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "wine_bottles_01"
+   ]
+  },
+  "dims_m": [
+   0.6763,
+   0.0806,
+   0.3314
+  ],
+  "bbox_min": [
+   -0.036,
+   -0.0403,
+   -0.0
+  ],
+  "bbox_max": [
+   0.6403,
+   0.0403,
+   0.3314
+  ],
+  "center_xy": [
+   0.3021,
+   -0.0
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/wine_bottles_01.png",
+  "notes": "4 wine/champagne bottles in a row along X (alsace x=0, bordeaux 0.21, burgundy 0.41, champagne 0.60); labels face -Y. Each ~0.30-0.33 m tall.",
+  "objects": [
+   "wine_bottles_01_bordeaux",
+   "wine_bottles_01_alsace",
+   "wine_bottles_01_burgundy",
+   "wine_bottles_01_champagne"
+  ],
+  "resolution": "2k",
+  "polycount_source": 28848,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "wine_bottles_01_bordeaux": {
+    "bbox_min": [
+     0.1727,
+     -0.0373,
+     0.0001
+    ],
+    "bbox_max": [
+     0.2473,
+     0.0373,
+     0.2982
+    ],
+    "dims_m": [
+     0.0745,
+     0.0745,
+     0.298
+    ]
+   },
+   "wine_bottles_01_alsace": {
+    "bbox_min": [
+     -0.036,
+     -0.036,
+     0.0
+    ],
+    "bbox_max": [
+     0.036,
+     0.036,
+     0.3314
+    ],
+    "dims_m": [
+     0.0721,
+     0.0721,
+     0.3314
+    ]
+   },
+   "wine_bottles_01_burgundy": {
+    "bbox_min": [
+     0.3699,
+     -0.0401,
+     0.0002
+    ],
+    "bbox_max": [
+     0.4501,
+     0.0401,
+     0.3062
+    ],
+    "dims_m": [
+     0.0801,
+     0.0801,
+     0.306
+    ]
+   },
+   "wine_bottles_01_champagne": {
+    "bbox_min": [
+     0.5597,
+     -0.0403,
+     -0.0
+    ],
+    "bbox_max": [
+     0.6403,
+     0.0403,
+     0.3155
+    ],
+    "dims_m": [
+     0.0806,
+     0.0806,
+     0.3155
+    ]
+   }
+  }
+ },
+ {
+  "id": "jug_01",
+  "category": "kitchen",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/jug_01/jug_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "jug_01"
+   ]
+  },
+  "dims_m": [
+   0.2753,
+   0.1675,
+   0.2113
+  ],
+  "bbox_min": [
+   -0.1523,
+   -0.0838,
+   0.0002
+  ],
+  "bbox_max": [
+   0.123,
+   0.0838,
+   0.2116
+  ],
+  "center_xy": [
+   -0.0147,
+   0.0
+  ],
+  "front": "-Y",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/jug_01.png",
+  "notes": "White ceramic milk jug with floral decal (decal faces -Y), spout +X, handle -X. 0.21 m tall.",
+  "objects": [
+   "jug_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 5770,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "food_apple_01",
+  "category": "kitchen_food",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/food_apple_01/food_apple_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "food_apple_01"
+   ]
+  },
+  "dims_m": [
+   0.0976,
+   0.0959,
+   0.0854
+  ],
+  "bbox_min": [
+   -0.0484,
+   -0.0501,
+   -0.0
+  ],
+  "bbox_max": [
+   0.0492,
+   0.0458,
+   0.0854
+  ],
+  "center_xy": [
+   0.0004,
+   -0.0021
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/food_apple_01.png",
+  "notes": "Single red apple ~0.10 m.",
+  "objects": [
+   "food_apple_01"
+  ],
+  "resolution": "2k",
+  "polycount_source": 7012,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "lemon",
+  "category": "kitchen_food",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/lemon/lemon_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "lemon"
+   ]
+  },
+  "dims_m": [
+   0.0687,
+   0.0683,
+   0.0954
+  ],
+  "bbox_min": [
+   -0.036,
+   -0.0335,
+   -0.0523
+  ],
+  "bbox_max": [
+   0.0327,
+   0.0347,
+   0.0431
+  ],
+  "center_xy": [
+   -0.0017,
+   0.0006
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/lemon.png",
+  "notes": "Single lemon ~0.10 m (standing on end); origin at centre, bbox min z=-0.052 -> raise by 0.052 to sit on a surface.",
+  "objects": [
+   "lemon"
+  ],
+  "resolution": "2k",
+  "polycount_source": 4012,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "bananas",
+  "category": "kitchen_food",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/bananas/bananas_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "bananas"
+   ]
+  },
+  "dims_m": [
+   0.6,
+   0.2441,
+   0.1788
+  ],
+  "bbox_min": [
+   -0.2455,
+   -0.1302,
+   -0.038
+  ],
+  "bbox_max": [
+   0.3545,
+   0.1138,
+   0.1407
+  ],
+  "center_xy": [
+   0.0545,
+   -0.0082
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/bananas.png",
+  "notes": "Bananas: 4 singles (bananas_a..d) + a bunch (bananas_bunch, at x~0.29) in a row along X. bbox min z=-0.038 (bunch dips below origin) - raise by 0.038 to rest on a surface.",
+  "objects": [
+   "bananas_bunch",
+   "bananas_c",
+   "bananas_d",
+   "bananas_a",
+   "bananas_b"
+  ],
+  "resolution": "2k",
+  "polycount_source": 46868,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "bananas_bunch": {
+    "bbox_min": [
+     0.2207,
+     -0.1302,
+     -0.038
+    ],
+    "bbox_max": [
+     0.3545,
+     0.0927,
+     0.1407
+    ],
+    "dims_m": [
+     0.1339,
+     0.2229,
+     0.1788
+    ]
+   },
+   "bananas_c": {
+    "bbox_min": [
+     -0.1433,
+     -0.0994,
+     -0.0202
+    ],
+    "bbox_max": [
+     -0.0373,
+     0.1117,
+     0.0218
+    ],
+    "dims_m": [
+     0.106,
+     0.2111,
+     0.0419
+    ]
+   },
+   "bananas_d": {
+    "bbox_min": [
+     -0.2455,
+     -0.109,
+     -0.0213
+    ],
+    "bbox_max": [
+     -0.1159,
+     0.1138,
+     0.0241
+    ],
+    "dims_m": [
+     0.1296,
+     0.2229,
+     0.0454
+    ]
+   },
+   "bananas_a": {
+    "bbox_min": [
+     0.0634,
+     -0.0885,
+     -0.0187
+    ],
+    "bbox_max": [
+     0.2009,
+     0.0889,
+     0.0203
+    ],
+    "dims_m": [
+     0.1375,
+     0.1774,
+     0.039
+    ]
+   },
+   "bananas_b": {
+    "bbox_min": [
+     -0.0312,
+     -0.0943,
+     -0.0209
+    ],
+    "bbox_max": [
+     0.0679,
+     0.0946,
+     0.0224
+    ],
+    "dims_m": [
+     0.0991,
+     0.1889,
+     0.0433
+    ]
+   }
+  }
+ },
+ {
+  "id": "food_pears_asian_01",
+  "category": "kitchen_food",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/food_pears_asian_01/food_pears_asian_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "food_pears_asian_01"
+   ]
+  },
+  "dims_m": [
+   0.1261,
+   0.1669,
+   0.0712
+  ],
+  "bbox_min": [
+   -0.0797,
+   -0.0663,
+   -0.0
+  ],
+  "bbox_max": [
+   0.0464,
+   0.1007,
+   0.0712
+  ],
+  "center_xy": [
+   -0.0166,
+   0.0172
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/food_pears_asian_01.png",
+  "notes": "Pile of 5 Asian pears (already arranged as a heap, 0.13 x 0.17 x 0.07 m) - drop into wooden_bowl_01.",
+  "objects": [
+   "food_pears_asian_01_b",
+   "food_pears_asian_01_c",
+   "food_pears_asian_01_e",
+   "food_pears_asian_01_d",
+   "food_pears_asian_01_a"
+  ],
+  "resolution": "2k",
+  "polycount_source": 12572,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "food_pears_asian_01_b": {
+    "bbox_min": [
+     -0.0278,
+     0.021,
+     -0.0
+    ],
+    "bbox_max": [
+     0.016,
+     0.1007,
+     0.0438
+    ],
+    "dims_m": [
+     0.0438,
+     0.0797,
+     0.0438
+    ]
+   },
+   "food_pears_asian_01_c": {
+    "bbox_min": [
+     -0.0493,
+     -0.0527,
+     -0.0
+    ],
+    "bbox_max": [
+     -0.0053,
+     -0.0082,
+     0.0712
+    ],
+    "dims_m": [
+     0.044,
+     0.0445,
+     0.0712
+    ]
+   },
+   "food_pears_asian_01_e": {
+    "bbox_min": [
+     -0.0071,
+     -0.0663,
+     -0.0
+    ],
+    "bbox_max": [
+     0.0364,
+     -0.0228,
+     0.067
+    ],
+    "dims_m": [
+     0.0434,
+     0.0434,
+     0.067
+    ]
+   },
+   "food_pears_asian_01_d": {
+    "bbox_min": [
+     -0.0046,
+     -0.0237,
+     -0.0
+    ],
+    "bbox_max": [
+     0.0464,
+     0.0233,
+     0.0442
+    ],
+    "dims_m": [
+     0.0511,
+     0.047,
+     0.0442
+    ]
+   },
+   "food_pears_asian_01_a": {
+    "bbox_min": [
+     -0.0797,
+     -0.018,
+     -0.0
+    ],
+    "bbox_max": [
+     -0.0176,
+     0.0365,
+     0.0423
+    ],
+    "dims_m": [
+     0.0622,
+     0.0545,
+     0.0423
+    ]
+   }
+  }
+ },
+ {
+  "id": "outdoor_table_chair_set_01",
+  "category": "outdoor_furniture",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/outdoor_table_chair_set_01/outdoor_table_chair_set_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "outdoor_table_chair_set_01"
+   ]
+  },
+  "dims_m": [
+   0.7417,
+   1.7173,
+   0.8586
+  ],
+  "bbox_min": [
+   -0.4255,
+   -0.9062,
+   -0.0059
+  ],
+  "bbox_max": [
+   0.3162,
+   0.8111,
+   0.8526
+  ],
+  "center_xy": [
+   -0.0547,
+   -0.0476
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/outdoor_table_chair_set_01.png",
+  "notes": "Compact folding bistro set: slatted wood table 0.74 x 0.69 m top at z=0.726 + 2 folding chairs (seat z~0.39 at slats). chair_01 at y<0 faces +Y (towards table), chair_02 at y>0 faces -Y; both rotated ~14-15deg about Z. Only outdoor dining set on Poly Haven (no outdoor lounge furniture, no parasol).",
+  "objects": [
+   "outdoor_table_chair_set_01_chair_01",
+   "outdoor_table_chair_set_01_table",
+   "outdoor_table_chair_set_01_chair_02"
+  ],
+  "resolution": "2k",
+  "polycount_source": 9828,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "outdoor_table_chair_set_01_chair_01": {
+    "bbox_min": [
+     -0.258,
+     -0.9062,
+     -0.0059
+    ],
+    "bbox_max": [
+     0.3162,
+     -0.2451,
+     0.8526
+    ],
+    "dims_m": [
+     0.5741,
+     0.6612,
+     0.8586
+    ]
+   },
+   "outdoor_table_chair_set_01_table": {
+    "bbox_min": [
+     -0.4255,
+     -0.417,
+     -0.0
+    ],
+    "bbox_max": [
+     0.2662,
+     0.2749,
+     0.7259
+    ],
+    "dims_m": [
+     0.6917,
+     0.6919,
+     0.7259
+    ]
+   },
+   "outdoor_table_chair_set_01_chair_02": {
+    "bbox_min": [
+     -0.3133,
+     0.1988,
+     -0.0059
+    ],
+    "bbox_max": [
+     0.1775,
+     0.8111,
+     0.8526
+    ],
+    "dims_m": [
+     0.4908,
+     0.6123,
+     0.8586
+    ]
+   }
+  },
+  "heights_m": {
+   "top_z": 0.726,
+   "seat_z": 0.39
+  }
+ },
+ {
+  "id": "tree_small_02",
+  "category": "outdoor_tree",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/tree_small_02/tree_small_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "tree_small_02_LOD0"
+   ]
+  },
+  "dims_m": [
+   2.9164,
+   4.2864,
+   4.5505
+  ],
+  "bbox_min": [
+   -1.3087,
+   -2.9089,
+   -0.0205
+  ],
+  "bbox_max": [
+   1.6077,
+   1.3776,
+   4.53
+  ],
+  "center_xy": [
+   0.1495,
+   -0.7656
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/tree_small_02.png",
+  "notes": "Small deciduous tree, slender curved trunk, airy canopy: 4.55 m tall, canopy ~2.9 x 4.3 m. Appending collection tree_small_02_LOD0 (single baked mesh, 4.6M polys - heavy; tree_small_02_LOD1 collection is a lighter alternative). Do NOT append the top-level tree_small_02 collection (it contains LOD0+LOD1+geometry-nodes copies overlapping).",
+  "objects": [
+   "tree_small_02_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 4652585,
+  "license": "CC0 (Poly Haven)"
+ },
+ {
+  "id": "shrub_02",
+  "category": "outdoor_shrub",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/shrub_02/shrub_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "shrub_02_LOD0"
+   ]
+  },
+  "dims_m": [
+   4.9193,
+   1.8568,
+   1.3835
+  ],
+  "bbox_min": [
+   -1.7001,
+   -0.9386,
+   -0.0205
+  ],
+  "bbox_max": [
+   3.2192,
+   0.9182,
+   1.363
+  ],
+  "center_xy": [
+   0.7596,
+   -0.0102
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/shrub_02.png",
+  "notes": "Sparse wispy sapling shrubs, 4 variants (shrub_02_a..d_LOD0) along X, ~1.0-1.4 m tall. Looks thin/pale - weak as garden shrub; prefer searsia_lucida. Append collection shrub_02_LOD0 (LOD1/LOD2 also exist).",
+  "objects": [
+   "shrub_02_a_LOD0",
+   "shrub_02_b_LOD0",
+   "shrub_02_c_LOD0",
+   "shrub_02_d_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 52317,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "shrub_02_a_LOD0": {
+    "bbox_min": [
+     -1.7001,
+     -0.6156,
+     -0.0094
+    ],
+    "bbox_max": [
+     -0.6339,
+     0.7178,
+     1.363
+    ],
+    "dims_m": [
+     1.0661,
+     1.3335,
+     1.3724
+    ]
+   },
+   "shrub_02_b_LOD0": {
+    "bbox_min": [
+     -0.4469,
+     -0.6205,
+     -0.0065
+    ],
+    "bbox_max": [
+     0.4553,
+     0.4196,
+     1.2175
+    ],
+    "dims_m": [
+     0.9022,
+     1.04,
+     1.224
+    ]
+   },
+   "shrub_02_c_LOD0": {
+    "bbox_min": [
+     0.6722,
+     -0.9386,
+     -0.0181
+    ],
+    "bbox_max": [
+     2.1079,
+     0.9182,
+     1.0503
+    ],
+    "dims_m": [
+     1.4357,
+     1.8568,
+     1.0684
+    ]
+   },
+   "shrub_02_d_LOD0": {
+    "bbox_min": [
+     2.3414,
+     -0.3608,
+     -0.0205
+    ],
+    "bbox_max": [
+     3.2192,
+     0.5314,
+     0.9784
+    ],
+    "dims_m": [
+     0.8778,
+     0.8922,
+     0.9989
+    ]
+   }
+  }
+ },
+ {
+  "id": "shrub_04",
+  "category": "outdoor_shrub",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/shrub_04/shrub_04_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "shrub_04_LOD0"
+   ]
+  },
+  "dims_m": [
+   0.7468,
+   0.1869,
+   0.2804
+  ],
+  "bbox_min": [
+   -0.0313,
+   -0.091,
+   -0.0076
+  ],
+  "bbox_max": [
+   0.7155,
+   0.096,
+   0.2729
+  ],
+  "center_xy": [
+   0.3421,
+   0.0025
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/shrub_04.png",
+  "notes": "Small glossy-leaf undergrowth branches, 4 variants along X, 0.2-0.28 m tall - bed/border filler. Append shrub_04_LOD0.",
+  "objects": [
+   "shrub_04_c_LOD0",
+   "shrub_04_b_LOD0",
+   "shrub_04_d_LOD0",
+   "shrub_04_a_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 47813,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "shrub_04_c_LOD0": {
+    "bbox_min": [
+     0.3436,
+     -0.0741,
+     -0.0076
+    ],
+    "bbox_max": [
+     0.4998,
+     0.0944,
+     0.2729
+    ],
+    "dims_m": [
+     0.1562,
+     0.1686,
+     0.2804
+    ]
+   },
+   "shrub_04_b_LOD0": {
+    "bbox_min": [
+     0.1365,
+     -0.0817,
+     -0.003
+    ],
+    "bbox_max": [
+     0.2793,
+     0.0847,
+     0.2047
+    ],
+    "dims_m": [
+     0.1428,
+     0.1664,
+     0.2077
+    ]
+   },
+   "shrub_04_d_LOD0": {
+    "bbox_min": [
+     0.4977,
+     -0.091,
+     -0.0059
+    ],
+    "bbox_max": [
+     0.7155,
+     0.096,
+     0.2674
+    ],
+    "dims_m": [
+     0.2178,
+     0.1869,
+     0.2734
+    ]
+   },
+   "shrub_04_a_LOD0": {
+    "bbox_min": [
+     -0.0313,
+     -0.0698,
+     -0.0034
+    ],
+    "bbox_max": [
+     0.1046,
+     0.0388,
+     0.1917
+    ],
+    "dims_m": [
+     0.1359,
+     0.1086,
+     0.195
+    ]
+   }
+  }
+ },
+ {
+  "id": "fern_02",
+  "category": "outdoor_shrub",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/fern_02/fern_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "fern_02"
+   ]
+  },
+  "dims_m": [
+   1.9725,
+   1.724,
+   0.4277
+  ],
+  "bbox_min": [
+   -0.5281,
+   -1.3022,
+   -0.0305
+  ],
+  "bbox_max": [
+   1.4444,
+   0.4219,
+   0.3972
+  ],
+  "center_xy": [
+   0.4581,
+   -0.4401
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/fern_02.png",
+  "notes": "4 fern clumps (fern_02_a..d) on a 1 m grid, 0.3-0.43 m tall - shady border planting.",
+  "objects": [
+   "fern_02_b",
+   "fern_02_c",
+   "fern_02_a",
+   "fern_02_d"
+  ],
+  "resolution": "2k",
+  "polycount_source": 6232,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "fern_02_b": {
+    "bbox_min": [
+     -0.5281,
+     -0.4718,
+     -0.0305
+    ],
+    "bbox_max": [
+     0.4616,
+     0.4219,
+     0.3972
+    ],
+    "dims_m": [
+     0.9897,
+     0.8937,
+     0.4277
+    ]
+   },
+   "fern_02_c": {
+    "bbox_min": [
+     0.5701,
+     -0.3479,
+     -0.0288
+    ],
+    "bbox_max": [
+     1.4444,
+     0.4173,
+     0.3202
+    ],
+    "dims_m": [
+     0.8743,
+     0.7652,
+     0.349
+    ]
+   },
+   "fern_02_a": {
+    "bbox_min": [
+     -0.2977,
+     -1.3022,
+     -0.0288
+    ],
+    "bbox_max": [
+     0.2543,
+     -0.6887,
+     0.258
+    ],
+    "dims_m": [
+     0.5519,
+     0.6134,
+     0.2868
+    ]
+   },
+   "fern_02_d": {
+    "bbox_min": [
+     0.7092,
+     -1.2411,
+     -0.0136
+    ],
+    "bbox_max": [
+     1.282,
+     -0.6479,
+     0.1995
+    ],
+    "dims_m": [
+     0.5728,
+     0.5933,
+     0.2131
+    ]
+   }
+  }
+ },
+ {
+  "id": "grass_medium_02",
+  "category": "outdoor_grass",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/grass_medium_02/grass_medium_02_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "grass_medium_02_static"
+   ]
+  },
+  "dims_m": [
+   1.3106,
+   0.4332,
+   0.4053
+  ],
+  "bbox_min": [
+   -0.0556,
+   -0.2578,
+   -0.0055
+  ],
+  "bbox_max": [
+   1.2551,
+   0.1754,
+   0.3998
+  ],
+  "center_xy": [
+   0.5997,
+   -0.0412
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/grass_medium_02.png",
+  "notes": "5 wispy grass tufts (static meshes) along X, up to 0.4 m - meadow/edge tufts, NOT a mown lawn. Collection grass_medium_02_static.",
+  "objects": [
+   "grass_medium_02_a",
+   "grass_medium_02_b",
+   "grass_medium_02_c",
+   "grass_medium_02_d",
+   "grass_medium_02_e"
+  ],
+  "resolution": "2k",
+  "polycount_source": 1043926,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "grass_medium_02_a": {
+    "bbox_min": [
+     -0.0556,
+     -0.0632,
+     -0.0028
+    ],
+    "bbox_max": [
+     0.0636,
+     0.0566,
+     0.1541
+    ],
+    "dims_m": [
+     0.1191,
+     0.1198,
+     0.1569
+    ]
+   },
+   "grass_medium_02_b": {
+    "bbox_min": [
+     0.1458,
+     -0.0942,
+     -0.004
+    ],
+    "bbox_max": [
+     0.3249,
+     0.1051,
+     0.1755
+    ],
+    "dims_m": [
+     0.1791,
+     0.1993,
+     0.1796
+    ]
+   },
+   "grass_medium_02_c": {
+    "bbox_min": [
+     0.3494,
+     -0.0886,
+     -0.0055
+    ],
+    "bbox_max": [
+     0.6111,
+     0.1609,
+     0.2262
+    ],
+    "dims_m": [
+     0.2617,
+     0.2495,
+     0.2317
+    ]
+   },
+   "grass_medium_02_d": {
+    "bbox_min": [
+     0.6084,
+     -0.2081,
+     -0.0051
+    ],
+    "bbox_max": [
+     0.9258,
+     0.1539,
+     0.2552
+    ],
+    "dims_m": [
+     0.3174,
+     0.3619,
+     0.2604
+    ]
+   },
+   "grass_medium_02_e": {
+    "bbox_min": [
+     0.8995,
+     -0.2578,
+     -0.0034
+    ],
+    "bbox_max": [
+     1.2551,
+     0.1754,
+     0.3998
+    ],
+    "dims_m": [
+     0.3556,
+     0.4332,
+     0.4032
+    ]
+   }
+  }
+ },
+ {
+  "id": "searsia_lucida",
+  "category": "outdoor_shrub",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/searsia_lucida/searsia_lucida_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "searsia_lucida_LOD0"
+   ]
+  },
+  "dims_m": [
+   4.7773,
+   2.838,
+   2.3389
+  ],
+  "bbox_min": [
+   -2.2887,
+   -1.253,
+   -0.0241
+  ],
+  "bbox_max": [
+   2.4886,
+   1.5849,
+   2.3148
+  ],
+  "center_xy": [
+   0.0999,
+   0.166
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/searsia_lucida.png",
+  "notes": "Dense leathery-leaf bush (Karoo shrub), 7 variants (searsia_lucida_a..g_LOD0) 1.0-2.3 m tall - best available for garden bushes / informal hedge clumps. Append collection searsia_lucida_LOD0 (LOD1/LOD2 lighter).",
+  "objects": [
+   "searsia_lucida_e_LOD0",
+   "searsia_lucida_f_LOD0",
+   "searsia_lucida_g_LOD0",
+   "searsia_lucida_c_LOD0",
+   "searsia_lucida_d_LOD0",
+   "searsia_lucida_a_LOD0",
+   "searsia_lucida_b_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 841648,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "searsia_lucida_e_LOD0": {
+    "bbox_min": [
+     -0.0146,
+     -1.0853,
+     -0.0137
+    ],
+    "bbox_max": [
+     1.0194,
+     -0.3695,
+     1.0113
+    ],
+    "dims_m": [
+     1.0339,
+     0.7159,
+     1.025
+    ]
+   },
+   "searsia_lucida_f_LOD0": {
+    "bbox_min": [
+     -0.8392,
+     -0.9348,
+     -0.0058
+    ],
+    "bbox_max": [
+     -0.1815,
+     -0.4516,
+     0.7328
+    ],
+    "dims_m": [
+     0.6576,
+     0.4832,
+     0.7386
+    ]
+   },
+   "searsia_lucida_g_LOD0": {
+    "bbox_min": [
+     -1.7084,
+     -0.895,
+     -0.0059
+    ],
+    "bbox_max": [
+     -1.3267,
+     -0.5701,
+     0.7809
+    ],
+    "dims_m": [
+     0.3817,
+     0.3249,
+     0.7868
+    ]
+   },
+   "searsia_lucida_c_LOD0": {
+    "bbox_min": [
+     -2.2887,
+     0.1182,
+     -0.021
+    ],
+    "bbox_max": [
+     -0.7798,
+     1.3675,
+     1.6588
+    ],
+    "dims_m": [
+     1.5089,
+     1.2493,
+     1.6798
+    ]
+   },
+   "searsia_lucida_d_LOD0": {
+    "bbox_min": [
+     0.9168,
+     -1.253,
+     -0.014
+    ],
+    "bbox_max": [
+     2.0121,
+     -0.2991,
+     1.4096
+    ],
+    "dims_m": [
+     1.0953,
+     0.9539,
+     1.4236
+    ]
+   },
+   "searsia_lucida_a_LOD0": {
+    "bbox_min": [
+     0.6826,
+     -0.3966,
+     -0.0241
+    ],
+    "bbox_max": [
+     2.4886,
+     1.5691,
+     2.3148
+    ],
+    "dims_m": [
+     1.806,
+     1.9657,
+     2.3389
+    ]
+   },
+   "searsia_lucida_b_LOD0": {
+    "bbox_min": [
+     -0.7283,
+     0.0612,
+     -0.018
+    ],
+    "bbox_max": [
+     0.7356,
+     1.5849,
+     1.9761
+    ],
+    "dims_m": [
+     1.4639,
+     1.5237,
+     1.9941
+    ]
+   }
+  }
+ },
+ {
+  "id": "shrub_01",
+  "category": "outdoor_shrub",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/shrub_01/shrub_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "shrub_01_LOD0"
+   ]
+  },
+  "dims_m": [
+   2.5867,
+   0.2186,
+   0.396
+  ],
+  "bbox_min": [
+   -1.8546,
+   -0.1047,
+   -0.0088
+  ],
+  "bbox_max": [
+   0.7321,
+   0.1138,
+   0.3872
+  ],
+  "center_xy": [
+   -0.5613,
+   0.0045
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/shrub_01.png",
+  "notes": "Slender wild shrub with white flower clusters, 9 small variants along X (~0.2-0.4 m tall) - flower-bed filler. Append shrub_01_LOD0.",
+  "objects": [
+   "shrub_01_b_LOD0",
+   "shrub_01_d_LOD0",
+   "shrub_01_c_LOD0",
+   "shrub_01_f_LOD0",
+   "shrub_01_a_LOD0",
+   "shrub_01_e_LOD0",
+   "shrub_01_i_LOD0",
+   "shrub_01_h_LOD0",
+   "shrub_01_g_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 282224,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "shrub_01_b_LOD0": {
+    "bbox_min": [
+     0.226,
+     -0.0885,
+     0.0
+    ],
+    "bbox_max": [
+     0.4079,
+     0.0866,
+     0.3323
+    ],
+    "dims_m": [
+     0.1819,
+     0.1751,
+     0.3323
+    ]
+   },
+   "shrub_01_d_LOD0": {
+    "bbox_min": [
+     -0.3473,
+     -0.0765,
+     -0.0008
+    ],
+    "bbox_max": [
+     -0.2119,
+     0.0758,
+     0.1998
+    ],
+    "dims_m": [
+     0.1354,
+     0.1523,
+     0.2006
+    ]
+   },
+   "shrub_01_c_LOD0": {
+    "bbox_min": [
+     -0.0742,
+     -0.0885,
+     0.0
+    ],
+    "bbox_max": [
+     0.0865,
+     0.0866,
+     0.294
+    ],
+    "dims_m": [
+     0.1607,
+     0.1751,
+     0.294
+    ]
+   },
+   "shrub_01_f_LOD0": {
+    "bbox_min": [
+     -0.7449,
+     -0.0455,
+     -0.0003
+    ],
+    "bbox_max": [
+     -0.6531,
+     0.0522,
+     0.1153
+    ],
+    "dims_m": [
+     0.0918,
+     0.0977,
+     0.1156
+    ]
+   },
+   "shrub_01_a_LOD0": {
+    "bbox_min": [
+     0.5009,
+     -0.0923,
+     -0.0088
+    ],
+    "bbox_max": [
+     0.7321,
+     0.1138,
+     0.3633
+    ],
+    "dims_m": [
+     0.2312,
+     0.2061,
+     0.3721
+    ]
+   },
+   "shrub_01_e_LOD0": {
+    "bbox_min": [
+     -0.5464,
+     -0.0609,
+     -0.0009
+    ],
+    "bbox_max": [
+     -0.4519,
+     0.048,
+     0.182
+    ],
+    "dims_m": [
+     0.0945,
+     0.109,
+     0.183
+    ]
+   },
+   "shrub_01_i_LOD0": {
+    "bbox_min": [
+     -1.8546,
+     -0.0885,
+     0.0
+    ],
+    "bbox_max": [
+     -1.6781,
+     0.0866,
+     0.346
+    ],
+    "dims_m": [
+     0.1765,
+     0.1751,
+     0.346
+    ]
+   },
+   "shrub_01_h_LOD0": {
+    "bbox_min": [
+     -1.503,
+     -0.1047,
+     -0.0079
+    ],
+    "bbox_max": [
+     -1.2709,
+     0.0969,
+     0.3872
+    ],
+    "dims_m": [
+     0.2321,
+     0.2017,
+     0.3951
+    ]
+   },
+   "shrub_01_g_LOD0": {
+    "bbox_min": [
+     -1.0581,
+     -0.0697,
+     -0.0016
+    ],
+    "bbox_max": [
+     -0.9445,
+     0.0444,
+     0.2477
+    ],
+    "dims_m": [
+     0.1136,
+     0.1142,
+     0.2492
+    ]
+   }
+  }
+ },
+ {
+  "id": "periwinkle_plant",
+  "category": "outdoor_groundcover",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/periwinkle_plant/periwinkle_plant_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "periwinkle_plant_LOD0"
+   ]
+  },
+  "dims_m": [
+   1.2354,
+   0.3207,
+   0.4107
+  ],
+  "bbox_min": [
+   -0.5601,
+   -0.1305,
+   -0.0
+  ],
+  "bbox_max": [
+   0.6752,
+   0.1902,
+   0.4107
+  ],
+  "center_xy": [
+   0.0576,
+   0.0298
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/periwinkle_plant.png",
+  "notes": "Periwinkle (Vinca) with small pink flowers, 6 variants along X, 0.2-0.41 m tall - flowering border/groundcover. Append periwinkle_plant_LOD0.",
+  "objects": [
+   "periwinkle_plant_04_LOD0",
+   "periwinkle_plant_06_LOD0",
+   "periwinkle_plant_03_LOD0",
+   "periwinkle_plant_02_LOD0",
+   "periwinkle_plant_05_LOD0",
+   "periwinkle_plant_01_LOD0"
+  ],
+  "resolution": "2k",
+  "polycount_source": 67388,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "periwinkle_plant_04_LOD0": {
+    "bbox_min": [
+     -0.2821,
+     -0.097,
+     -0.0
+    ],
+    "bbox_max": [
+     -0.1262,
+     0.0872,
+     0.2649
+    ],
+    "dims_m": [
+     0.1558,
+     0.1842,
+     0.265
+    ]
+   },
+   "periwinkle_plant_06_LOD0": {
+    "bbox_min": [
+     -0.5601,
+     -0.0555,
+     -0.0
+    ],
+    "bbox_max": [
+     -0.4572,
+     0.034,
+     0.1597
+    ],
+    "dims_m": [
+     0.1029,
+     0.0894,
+     0.1597
+    ]
+   },
+   "periwinkle_plant_03_LOD0": {
+    "bbox_min": [
+     -0.0973,
+     -0.0833,
+     -0.0
+    ],
+    "bbox_max": [
+     0.0701,
+     0.0633,
+     0.3002
+    ],
+    "dims_m": [
+     0.1675,
+     0.1466,
+     0.3002
+    ]
+   },
+   "periwinkle_plant_02_LOD0": {
+    "bbox_min": [
+     0.1421,
+     -0.1113,
+     -0.0
+    ],
+    "bbox_max": [
+     0.3732,
+     0.1134,
+     0.4107
+    ],
+    "dims_m": [
+     0.2311,
+     0.2248,
+     0.4107
+    ]
+   },
+   "periwinkle_plant_05_LOD0": {
+    "bbox_min": [
+     -0.4153,
+     -0.0621,
+     -0.0
+    ],
+    "bbox_max": [
+     -0.3042,
+     0.0788,
+     0.2058
+    ],
+    "dims_m": [
+     0.1111,
+     0.1409,
+     0.2058
+    ]
+   },
+   "periwinkle_plant_01_LOD0": {
+    "bbox_min": [
+     0.4145,
+     -0.1305,
+     0.0
+    ],
+    "bbox_max": [
+     0.6752,
+     0.1902,
+     0.3973
+    ],
+    "dims_m": [
+     0.2608,
+     0.3207,
+     0.3973
+    ]
+   }
+  }
+ },
+ {
+  "id": "grass_bermuda_01",
+  "category": "outdoor_grass",
+  "blend": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/models/grass_bermuda_01/grass_bermuda_01_2k.blend",
+  "append": {
+   "type": "collection",
+   "names": [
+    "grass_bermuda_01_static"
+   ]
+  },
+  "dims_m": [
+   1.6865,
+   0.1422,
+   0.1583
+  ],
+  "bbox_min": [
+   -0.7589,
+   -0.0721,
+   -0.0115
+  ],
+  "bbox_max": [
+   0.9276,
+   0.0701,
+   0.1468
+  ],
+  "center_xy": [
+   0.0843,
+   -0.001
+  ],
+  "front": "unknown",
+  "textures_ok": true,
+  "preview": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/previews/grass_bermuda_01.png",
+  "notes": "Dense short Bermuda-grass tufts (21 static variants: medium/flattened/dead) along X, max 0.16 m tall - usable as scatter instances for a lawn (geometry nodes / particle instancing). Collection grass_bermuda_01_static.",
+  "objects": [
+   "grass_bermuda_01_dead_a",
+   "grass_bermuda_01_dead_b",
+   "grass_bermuda_01_flattened_a",
+   "grass_bermuda_01_medium_a",
+   "grass_bermuda_01_medium_b",
+   "grass_bermuda_01_medium_c",
+   "grass_bermuda_01_medium_d",
+   "grass_bermuda_01_medium_e",
+   "grass_bermuda_01_medium_f",
+   "grass_bermuda_01_seedling_a",
+   "grass_bermuda_01_seedling_b",
+   "grass_bermuda_01_seedling_c",
+   "grass_bermuda_01_seedling_d",
+   "grass_bermuda_01_single_a",
+   "grass_bermuda_01_single_b",
+   "grass_bermuda_01_small_a",
+   "grass_bermuda_01_small_b",
+   "grass_bermuda_01_small_c",
+   "grass_bermuda_01_small_d",
+   "grass_bermuda_01_small_e",
+   "grass_bermuda_01_small_f"
+  ],
+  "resolution": "2k",
+  "polycount_source": 223596,
+  "license": "CC0 (Poly Haven)",
+  "parts": {
+   "grass_bermuda_01_dead_a": {
+    "bbox_min": [
+     -0.6394,
+     -0.057,
+     -0.0058
+    ],
+    "bbox_max": [
+     -0.5716,
+     0.0273,
+     0.019
+    ],
+    "dims_m": [
+     0.0677,
+     0.0843,
+     0.0247
+    ]
+   },
+   "grass_bermuda_01_dead_b": {
+    "bbox_min": [
+     -0.5533,
+     -0.0082,
+     -0.0044
+    ],
+    "bbox_max": [
+     -0.4832,
+     0.0468,
+     0.0389
+    ],
+    "dims_m": [
+     0.0701,
+     0.055,
+     0.0433
+    ]
+   },
+   "grass_bermuda_01_flattened_a": {
+    "bbox_min": [
+     -0.6995,
+     0.0009,
+     -0.0019
+    ],
+    "bbox_max": [
+     -0.6555,
+     0.0701,
+     0.0417
+    ],
+    "dims_m": [
+     0.0439,
+     0.0693,
+     0.0436
+    ]
+   },
+   "grass_bermuda_01_medium_a": {
+    "bbox_min": [
+     -0.7589,
+     -0.0051,
+     -0.0007
+    ],
+    "bbox_max": [
+     -0.7204,
+     0.0235,
+     0.097
+    ],
+    "dims_m": [
+     0.0385,
+     0.0286,
+     0.0978
+    ]
+   },
+   "grass_bermuda_01_medium_b": {
+    "bbox_min": [
+     0.7057,
+     -0.0163,
+     -0.0011
+    ],
+    "bbox_max": [
+     0.7569,
+     0.0056,
+     0.0735
+    ],
+    "dims_m": [
+     0.0512,
+     0.0219,
+     0.0746
+    ]
+   },
+   "grass_bermuda_01_medium_c": {
+    "bbox_min": [
+     0.0359,
+     -0.0434,
+     -0.0046
+    ],
+    "bbox_max": [
+     0.0929,
+     0.0482,
+     0.0621
+    ],
+    "dims_m": [
+     0.057,
+     0.0916,
+     0.0667
+    ]
+   },
+   "grass_bermuda_01_medium_d": {
+    "bbox_min": [
+     0.7944,
+     -0.0123,
+     -0.0009
+    ],
+    "bbox_max": [
+     0.8493,
+     0.004,
+     0.1012
+    ],
+    "dims_m": [
+     0.055,
+     0.0163,
+     0.1021
+    ]
+   },
+   "grass_bermuda_01_medium_e": {
+    "bbox_min": [
+     0.122,
+     -0.0338,
+     -0.0115
+    ],
+    "bbox_max": [
+     0.1881,
+     0.0031,
+     0.0712
+    ],
+    "dims_m": [
+     0.066,
+     0.0369,
+     0.0827
+    ]
+   },
+   "grass_bermuda_01_medium_f": {
+    "bbox_min": [
+     0.2271,
+     -0.0195,
+     -0.0034
+    ],
+    "bbox_max": [
+     0.2678,
+     0.0066,
+     0.1096
+    ],
+    "dims_m": [
+     0.0407,
+     0.0261,
+     0.113
+    ]
+   },
+   "grass_bermuda_01_seedling_a": {
+    "bbox_min": [
+     0.3003,
+     -0.036,
+     -0.0043
+    ],
+    "bbox_max": [
+     0.3682,
+     0.0096,
+     0.1465
+    ],
+    "dims_m": [
+     0.0678,
+     0.0456,
+     0.1509
+    ]
+   },
+   "grass_bermuda_01_seedling_b": {
+    "bbox_min": [
+     0.4202,
+     -0.03,
+     -0.0055
+    ],
+    "bbox_max": [
+     0.4967,
+     0.0193,
+     0.1217
+    ],
+    "dims_m": [
+     0.0766,
+     0.0493,
+     0.1272
+    ]
+   },
+   "grass_bermuda_01_seedling_c": {
+    "bbox_min": [
+     0.5357,
+     -0.0334,
+     -0.0021
+    ],
+    "bbox_max": [
+     0.5729,
+     0.0111,
+     0.0901
+    ],
+    "dims_m": [
+     0.0372,
+     0.0445,
+     0.0923
+    ]
+   },
+   "grass_bermuda_01_seedling_d": {
+    "bbox_min": [
+     0.5938,
+     -0.0721,
+     -0.0069
+    ],
+    "bbox_max": [
+     0.6635,
+     0.011,
+     0.1453
+    ],
+    "dims_m": [
+     0.0696,
+     0.0831,
+     0.1522
+    ]
+   },
+   "grass_bermuda_01_single_a": {
+    "bbox_min": [
+     0.9146,
+     -0.0175,
+     -0.0026
+    ],
+    "bbox_max": [
+     0.9182,
+     -0.0038,
+     0.1468
+    ],
+    "dims_m": [
+     0.0036,
+     0.0137,
+     0.1494
+    ]
+   },
+   "grass_bermuda_01_single_b": {
+    "bbox_min": [
+     0.924,
+     -0.0175,
+     -0.0026
+    ],
+    "bbox_max": [
+     0.9276,
+     -0.0038,
+     0.1468
+    ],
+    "dims_m": [
+     0.0036,
+     0.0137,
+     0.1494
+    ]
+   },
+   "grass_bermuda_01_small_a": {
+    "bbox_min": [
+     -0.4682,
+     -0.0117,
+     -0.0038
+    ],
+    "bbox_max": [
+     -0.3883,
+     0.0161,
+     0.0284
+    ],
+    "dims_m": [
+     0.0799,
+     0.0278,
+     0.0322
+    ]
+   },
+   "grass_bermuda_01_small_b": {
+    "bbox_min": [
+     -0.2474,
+     -0.018,
+     0.0001
+    ],
+    "bbox_max": [
+     -0.1647,
+     0.018,
+     0.046
+    ],
+    "dims_m": [
+     0.0827,
+     0.036,
+     0.0459
+    ]
+   },
+   "grass_bermuda_01_small_c": {
+    "bbox_min": [
+     -0.155,
+     -0.019,
+     -0.0022
+    ],
+    "bbox_max": [
+     -0.101,
+     0.0224,
+     0.0529
+    ],
+    "dims_m": [
+     0.054,
+     0.0415,
+     0.0552
+    ]
+   },
+   "grass_bermuda_01_small_d": {
+    "bbox_min": [
+     -0.052,
+     -0.0142,
+     -0.0002
+    ],
+    "bbox_max": [
+     0.0062,
+     0.0192,
+     0.0544
+    ],
+    "dims_m": [
+     0.0582,
+     0.0335,
+     0.0546
+    ]
+   },
+   "grass_bermuda_01_small_e": {
+    "bbox_min": [
+     -0.3619,
+     -0.0084,
+     -0.0028
+    ],
+    "bbox_max": [
+     -0.3332,
+     0.0092,
+     0.0879
+    ],
+    "dims_m": [
+     0.0287,
+     0.0177,
+     0.0907
+    ]
+   },
+   "grass_bermuda_01_small_f": {
+    "bbox_min": [
+     -0.3067,
+     -0.0118,
+     -0.0053
+    ],
+    "bbox_max": [
+     -0.2712,
+     0.0128,
+     0.0638
+    ],
+    "dims_m": [
+     0.0355,
+     0.0246,
+     0.0691
+    ]
+   }
+  }
+ }
+]

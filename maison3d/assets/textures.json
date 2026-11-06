@@ -1,0 +1,422 @@
+{
+ "floor_oak": {
+  "source": "polyhaven (CC0)",
+  "id": "laminate_floor_02",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak/laminate_floor_02_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak/laminate_floor_02_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak/laminate_floor_02_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak/laminate_floor_02_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak/laminate_floor_02_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   1.7,
+   1.7
+  ],
+  "dimensions_mm_from_api": [
+   1699.9999284744263,
+   1700.0000476837158
+  ],
+  "notes": "Light natural/greige oak wide planks (laminate photo-scan, looks like real oak). Boards run along U (horizontal in image), ~21 cm wide x ~1.2-1.4 m long. Mean albedo sRGB ~(155,128,99): not orange. Roughness map is RGB: use as Non-Color (BW). Satin finish: roughness map mean ~0.38; fine as-is."
+ },
+ "wall_paint": {
+  "source": "polyhaven (CC0)",
+  "id": "white_stucco",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint/white_stucco_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint/white_stucco_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint/white_stucco_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint/white_stucco_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wall_paint/white_stucco_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   2.0,
+   2.0
+  ],
+  "dimensions_mm_from_api": [
+   1998.0629682540894,
+   1998.0640411376953
+  ],
+  "notes": "Very subtle white stucco/painted plaster, almost uniform (mean sRGB ~(215,211,208)). For walls/ceiling either use the color map multiplied up to ~sRGB 235 white, or a flat colour + roughness (mean ~0.88) + normal at low strength (0.1-0.3) for micro detail. Avoid displacement on walls."
+ },
+ "tile_floor_bath": {
+  "source": "polyhaven (CC0)",
+  "id": "marble_01",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_diff_2k_greige.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   1.5,
+   1.5
+  ],
+  "dimensions_mm_from_api": [
+   1500,
+   1500
+  ],
+  "notes": "Large-format light limestone/stone floor tiles with thin visible grout, offset rows; individual tiles approx 60x40 cm. Default color is a desaturated light greige variant (made by Claude from the original: saturation x0.5, value x1.06); original warm-beige diffuse kept in extra_maps.color_original. Roughness ~0.5 (honed stone).",
+  "extra_maps": {
+   "color_original": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_floor_bath/marble_01_diff_2k.jpg"
+  }
+ },
+ "tile_wall_bath": {
+  "source": "polyhaven (CC0)",
+  "id": "long_white_tiles",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath/long_white_tiles_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath/long_white_tiles_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath/long_white_tiles_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath/long_white_tiles_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/tile_wall_bath/long_white_tiles_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   1.27,
+   1.27
+  ],
+  "dimensions_mm_from_api": [
+   1269.9999809265137,
+   1269.9999809265137
+  ],
+  "notes": "White glossy rectangular tiles in vertical stack bond with beige grout (contemporary 'finger/kit-kat' look). At true scale tiles are ~3.2 x 12.7 cm; for a larger 6.5x25 cm vertical-stack format set tile_m to [2.54,2.54]. Roughness mean ~0.24 (glazed). Asset tags mention slight wear/chips: keep normal strength moderate (~0.5)."
+ },
+ "worktop_stone": {
+  "source": "generated (procedural, by Claude with numpy; tileable)",
+  "id": "quartz_light_procedural",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/worktop_stone",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/worktop_stone/quartz_light_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/worktop_stone/quartz_light_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/worktop_stone/quartz_light_nor_gl_2k.png",
+   "displacement": null,
+   "ao": null,
+   "metalness": null
+  },
+  "tile_m": [
+   1.2,
+   1.2
+  ],
+  "dimensions_mm_from_api": null,
+  "notes": "GAP: no light quartz/marble slab texture on Poly Haven, and ambientCG ZIP downloads are blocked (they redirect to acg-download.struffelproductions.com which the proxy refuses). So this is a procedural, seamless light quartz (warm white sRGB ~(238,235,229), faint soft grey veins, fine speckles). Polished: roughness ~0.14; normal is almost flat. Generator: /tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets_tools/make_derived.py"
+ },
+ "fabric_sofa": {
+  "source": "polyhaven (CC0)",
+  "id": "poly_wool_herringbone",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_diff_2k_greige.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   0.27,
+   0.276
+  ],
+  "dimensions_mm_from_api": [
+   270.0788548673393,
+   275.70000290870667
+  ],
+  "notes": "Woven poly-wool herringbone (fine twill weave, reads as a textured upholstery fabric). Default color is a light grey-beige recolour (sRGB ~(196,188,176)) made by Claude keeping the weave luminance; original mid-grey kept in extra_maps.color_original. The Poly Haven 'Metal' map is NOT metalness for this fabric (mean 0.2) -> metalness set null, ignore it. Add Sheen (~0.3-0.5) in Principled BSDF. Alternative bouclé look: use the 'rug' set (curly_teddy_natural) at ~0.33 m tile.",
+  "extra_maps": {
+   "color_original": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_diff_2k.jpg",
+   "metalness_raw_do_not_use": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_sofa/poly_wool_herringbone_metal_2k.jpg"
+  }
+ },
+ "fabric_linen": {
+  "source": "polyhaven (CC0)",
+  "id": "rough_linen",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_diff_2k_offwhite.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   0.271,
+   0.271
+  ],
+  "dimensions_mm_from_api": [
+   270.7081392676629,
+   271.29998803138733
+  ],
+  "notes": "Linen weave (crosshatch slub). The original albedo is light BLUE, so default color is an off-white recolour (sRGB ~(236,232,224)) made by Claude from its luminance; original kept in extra_maps.color_original (or tint it any colour). Metal map ~0 -> ignored. extra_maps.opacity_mask = weave-gap mask, not needed for bedding. Use Sheen ~0.3.",
+  "extra_maps": {
+   "color_original": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_diff_2k.jpg",
+   "metalness_raw_do_not_use": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_metal_2k.jpg",
+   "opacity_mask": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/fabric_linen/rough_linen_mask_2k.png"
+  }
+ },
+ "rug": {
+  "source": "polyhaven (CC0)",
+  "id": "curly_teddy_natural",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   0.336,
+   0.331
+  ],
+  "dimensions_mm_from_api": [
+   335.804452696631,
+   330.90004324913025
+  ],
+  "notes": "Cream curly wool/teddy (bouclé/berber look) - reads as a neutral thick wool rug; mean sRGB ~(233,211,187). Displacement/normal give the curly pile; for a rug use normal strength ~1 and optionally displacement 3-5 mm (adaptive subdiv) or just bump. Metal map ~0 -> ignored.",
+  "extra_maps": {
+   "metalness_raw_do_not_use": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug/curly_teddy_natural_metal_2k.jpg"
+  }
+ },
+ "wood_furniture": {
+  "source": "polyhaven (CC0)",
+  "id": "silver_oak_veneer_01",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture/silver_oak_veneer_01_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture/silver_oak_veneer_01_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture/silver_oak_veneer_01_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture/silver_oak_veneer_01_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/wood_furniture/silver_oak_veneer_01_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   1.0,
+   1.0
+  ],
+  "dimensions_mm_from_api": [
+   1000,
+   1000
+  ],
+  "notes": "Light white/silver oak veneer (straight fine grain along U), mean sRGB ~(220,191,158). Use for dining table, nightstands, shelves. Roughness ~0.56 (matt oiled); for a satin varnish lower to ~0.35 or add a coat (Principled Coat 0.2)."
+ },
+ "terrace_deck": {
+  "source": "polyhaven (CC0)",
+  "id": "granite_tile_04",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck/granite_tile_04_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck/granite_tile_04_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck/granite_tile_04_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck/granite_tile_04_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/terrace_deck/granite_tile_04_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   2.0,
+   2.0
+  ],
+  "dimensions_mm_from_api": [
+   2000,
+   2000
+  ],
+  "notes": "Outdoor grey stone/granite slab tiles with grout lines, slightly weathered, tiles approx 40x40 cm (5 per 2 m tile). Chosen over Poly Haven wood decks, which are all dark/orange varnished or very weathered. Mean sRGB ~(113,100,86); can be lightened ~15% for a lighter grey porcelain look."
+ },
+ "grass": {
+  "source": "polyhaven (CC0)",
+  "id": "grass_ground",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_diff_2k_green.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   2.51,
+   2.51
+  ],
+  "dimensions_mm_from_api": [
+   2509.999990463257,
+   2509.999990463257
+  ],
+  "notes": "Lawn ground (short grass + soil). The original is dry/brownish, so default color is a greener recolour made by Claude (hue shifted to green, saturation x1.25); original kept in extra_maps.color_original. For close views consider particle/geometry grass on top; as a ground plane seen through windows this is enough.",
+  "extra_maps": {
+   "color_original": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/grass/grass_ground_diff_2k.jpg"
+  }
+ },
+ "render_exterior": {
+  "source": "polyhaven (CC0)",
+  "id": "white_stucco_02",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_diff_2k_offwhite.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   1.8,
+   1.8
+  ],
+  "dimensions_mm_from_api": [
+   7.868050033721374e-05,
+   1800.0000715255737
+  ],
+  "notes": "Exterior grainy render/enduit (stucco, skim-coat). Poly Haven 'dimensions' for this asset are broken ([7.9e-05, 1800] mm): assumed 1.8 x 1.8 m (estimate). The original albedo is a medium light grey (sRGB ~174), so default color is a brightened warm off-white recolour (sRGB ~(232,228,218)); original kept in extra_maps.color_original. Roughness ~0.89.",
+  "extra_maps": {
+   "color_original": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/render_exterior/white_stucco_02_diff_2k.jpg"
+  }
+ },
+ "roof_tiles": {
+  "source": "polyhaven (CC0)",
+  "id": "roof_tiles",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles/roof_tiles_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles/roof_tiles_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles/roof_tiles_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles/roof_tiles_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/roof_tiles/roof_tiles_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   2.0,
+   2.0
+  ],
+  "dimensions_mm_from_api": [
+   2000,
+   2000
+  ],
+  "notes": "Terracotta interlocking clay roof tiles (French 'tuile mécanique'/flat-interlocking style), orange-red with slight weathering. Courses run along U; slope direction = V. Use displacement or strong normal for relief."
+ },
+ "floor_oak_alt": {
+  "source": "polyhaven (CC0)",
+  "id": "laminate_floor_03",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt/laminate_floor_03_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt/laminate_floor_03_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt/laminate_floor_03_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt/laminate_floor_03_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/floor_oak_alt/laminate_floor_03_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   2.08,
+   2.08
+  ],
+  "dimensions_mm_from_api": [
+   2079.9996852874756,
+   2079.9996852874756
+  ],
+  "notes": "ALTERNATIVE floor: warmer light oak planks with small knots, boards along V (vertical in image), ~20 cm wide; a bit more yellow/orange than floor_oak (mean sRGB ~(154,114,72)). Displacement map here is 8-bit RGB."
+ },
+ "rug_alt": {
+  "source": "polyhaven (CC0)",
+  "id": "hessian_230",
+  "dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt",
+  "maps": {
+   "color": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_diff_2k.jpg",
+   "roughness": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_rough_2k.jpg",
+   "normal_gl": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_nor_gl_2k.jpg",
+   "displacement": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_disp_2k.png",
+   "ao": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_ao_2k.jpg",
+   "metalness": null
+  },
+  "tile_m": [
+   0.269,
+   0.267
+  ],
+  "dimensions_mm_from_api": [
+   268.7538661074732,
+   267.1999931335449
+  ],
+  "notes": "ALTERNATIVE rug: natural jute/hessian weave. At true scale it is a fine burlap; for a flat-woven jute rug scale it up ~3x (tile_m ~[0.8,0.8]). The Poly Haven 'Metal' map is not metalness -> ignored. extra_maps.opacity_mask = weave gaps (ignore for a rug).",
+  "extra_maps": {
+   "metalness_raw_do_not_use": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_metal_2k.jpg",
+   "opacity_mask": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/textures/rug_alt/hessian_230_mask_2k.png"
+  }
+ },
+ "hdri": {
+  "id": "meadow_2",
+  "source": "polyhaven (CC0)",
+  "path": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/hdri/meadow_2_4k.hdr",
+  "format": "Radiance .hdr, 4K",
+  "size": [
+   4096,
+   2048
+  ],
+  "sun_uv": [
+   0.60046,
+   0.64991
+  ],
+  "sun_pixel_xy_from_top_left": [
+   2459.5,
+   717.0
+  ],
+  "sun_elevation_deg": 26.98,
+  "sun_azimuth_deg_unrotated": -36.17,
+  "sun_direction_world_unrotated": [
+   0.7194,
+   -0.526,
+   0.4537
+  ],
+  "peak_luminance": 147346.8,
+  "sun_energy_fraction": 0.7583,
+  "notes": "Sunny clear late-afternoon/morning meadow with green grass, bushes and large deciduous trees around the horizon (Germany); sun visible, white balance ~5300K, 27 EV range. Conventions VERIFIED in Blender 5.2 Cycles (source kernel/camera/projection.h + a test render): u = 0.5 - atan2(dir.y, dir.x)/(2*pi), v = 1 - acos(dir.z)/pi (v measured from image bottom). So image centre u=0.5 faces +X; u=0.25 faces +Y; u=0.75 faces -Y. Unrotated, the sun is at azimuth -36.17 deg (CCW from +X, i.e. towards +X/-Y) and elevation 26.98 deg, direction [0.7194, -0.526, 0.4537]. With TexCoord(Generated) -> Mapping(type POINT, Rotation Z = theta) -> Environment Texture, the sun appears at azimuth (-36.17 - theta). To put the sun at world azimuth alpha (deg, CCW from +X): theta = -36.17 - alpha (verified by render). Sun energy is concentrated in ~25-30 pixels at 4K; leave the HDRI as sole light or add a Sun lamp matching this direction (angle ~0.5 deg) and clamp/limit the HDRI if fireflies appear."
+ },
+ "hdri_alt": {
+  "id": "spaichingen_hill",
+  "source": "polyhaven (CC0)",
+  "path": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/hdri/spaichingen_hill_4k.hdr",
+  "format": "Radiance .hdr, 4K",
+  "size": [
+   4096,
+   2048
+  ],
+  "sun_uv": [
+   0.60011,
+   0.57179
+  ],
+  "sun_pixel_xy_from_top_left": [
+   2458.0,
+   877.0
+  ],
+  "sun_elevation_deg": 12.92,
+  "sun_azimuth_deg_unrotated": -36.04,
+  "sun_direction_world_unrotated": [
+   0.7881,
+   -0.5735,
+   0.2236
+  ],
+  "peak_luminance": 145677.3,
+  "sun_energy_fraction": 0.6304,
+  "notes": "ALTERNATIVE: lower, warmer late-afternoon sun (~13 deg) over open green countryside with a tree group and distant hills/village; gives long sun patches deep into rooms. Conventions VERIFIED in Blender 5.2 Cycles (source kernel/camera/projection.h + a test render): u = 0.5 - atan2(dir.y, dir.x)/(2*pi), v = 1 - acos(dir.z)/pi (v measured from image bottom). So image centre u=0.5 faces +X; u=0.25 faces +Y; u=0.75 faces -Y. Unrotated, the sun is at azimuth -36.04 deg (CCW from +X, i.e. towards +X/-Y) and elevation 12.92 deg, direction [0.7881, -0.5735, 0.2236]. With TexCoord(Generated) -> Mapping(type POINT, Rotation Z = theta) -> Environment Texture, the sun appears at azimuth (-36.04 - theta). To put the sun at world azimuth alpha (deg, CCW from +X): theta = -36.04 - alpha (verified by render). Sun energy is concentrated in ~25-30 pixels at 4K; leave the HDRI as sole light or add a Sun lamp matching this direction (angle ~0.5 deg) and clamp/limit the HDRI if fireflies appear."
+ },
+ "_meta": {
+  "license": "Poly Haven assets are CC0. Derived recolours and the procedural quartz were made by Claude.",
+  "resolution": "2K maps (jpg for color/rough/normal/ao, 16-bit png displacement where available).",
+  "normal_maps": "All normal maps are OpenGL convention (Blender native): plug into Normal Map node, colour space Non-Color.",
+  "color_space": "color maps sRGB; roughness/normal/displacement/ao/metalness Non-Color.",
+  "gaps": [
+   "ambientCG downloads blocked (redirect host acg-download.struffelproductions.com refused by proxy) -> everything from Poly Haven",
+   "no real quartz/marble slab texture -> procedural worktop",
+   "no light natural wood decking on Poly Haven -> grey stone outdoor tiles for terrace"
+  ],
+  "previews_dir": "/tmp/claude-0/-home-user-isis-medical/29082e2e-5040-5750-9e57-b941bd9f147a/scratchpad/assets/_previews"
+ }
+}
