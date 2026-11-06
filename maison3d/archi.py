@@ -320,7 +320,7 @@ def interior_doors(M):
             dd0, dd1 = side, side + s * ct
             _frame_box(p + f"_ch{s}_g", ax, a0 - cw, a0, min(dd0, dd1), max(dd0, dd1), 0, z1 + cw, M["white_lacquer"], 0.002)
             _frame_box(p + f"_ch{s}_d", ax, a1, a1 + cw, min(dd0, dd1), max(dd0, dd1), 0, z1 + cw, M["white_lacquer"], 0.002)
-            _frame_box(p + f"_ch{s}_h", ax, a0 - cw, a1 + cw, min(dd0, dd1), max(dd0, dd1), z1, z1 + cw, M["white_lacquer"], 0.002)
+            _frame_box(p + f"_ch{s}_h", ax, a0 + 0.0005, a1 - 0.0005, min(dd0, dd1), max(dd0, dd1) - 0.001 * s, z1, z1 + cw, M["white_lacquer"], 0.002)
         # ebrasement (fourrure) dans l'epaisseur
         _frame_box(p + "_fg", ax, a0, a0 + 0.015, lo, hi, 0, z1, M["white_lacquer"], 0.0)
         _frame_box(p + "_fd", ax, a1 - 0.015, a1, lo, hi, 0, z1, M["white_lacquer"], 0.0)
