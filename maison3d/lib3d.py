@@ -283,8 +283,18 @@ def glass(name="verre", tint=(0.93, 0.96, 0.95), frosted=False):
     gl.inputs["Color"].default_value = (1, 1, 1, 1)
     fr = nt.nodes.new("ShaderNodeFresnel")
     fr.inputs["IOR"].default_value = 1.52
+    # face arriere d'un vitrage epais : pas de reflexion totale (sinon le verre parait noir en vue rasante)
+    geo = nt.nodes.new("ShaderNodeNewGeometry")
+    inv = nt.nodes.new("ShaderNodeMath")
+    inv.operation = "SUBTRACT"
+    inv.inputs[0].default_value = 1.0
+    L.new(geo.outputs["Backfacing"], inv.inputs[1])
+    fw = nt.nodes.new("ShaderNodeMath")
+    fw.operation = "MULTIPLY"
+    L.new(fr.outputs[0], fw.inputs[0])
+    L.new(inv.outputs[0], fw.inputs[1])
     mx = nt.nodes.new("ShaderNodeMixShader")
-    L.new(fr.outputs[0], mx.inputs[0])
+    L.new(fw.outputs[0], mx.inputs[0])
     L.new(tp.outputs[0], mx.inputs[1])
     L.new(gl.outputs[0], mx.inputs[2])
     L.new(mx.outputs[0], out.inputs[0])
